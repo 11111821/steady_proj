@@ -1,0 +1,8 @@
+ch/qos/logback/core/repo/EventDataRepositiry.class
+ch/qos/logback/core/model/dao/EventData.class
+ch/qos/logback/core/service/LogbackServiceImpl.class
+ch/qos/logback/core/service/LogbackService.class
+ch/qos/logback/core/model/State.class
+ch/qos/logback/core/model/Event.class
+ch/qos/logback/core/LogbackClassicApplication.class
+ch/qos/logback/core/util/UtilityService.class

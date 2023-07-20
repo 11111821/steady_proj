@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.6.4</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>ch.qos.logback</groupId>
+	<artifactId>logback-classic</artifactId>
+	<version>1.1.7-SNAPSHOT</version>
+	<name>logback-classic</name>
+	<description>Log Analyser</description>
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hsqldb</groupId>
+			<artifactId>hsqldb</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+		    <groupId>com.fasterxml.jackson.core</groupId>
+		    <artifactId>jackson-annotations</artifactId>
+		    <version>2.13.1</version>
+		</dependency>
+		<dependency>
+		    <groupId>com.fasterxml.jackson.core</groupId>
+		    <artifactId>jackson-databind</artifactId>
+		    <version>2.13.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+        <dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.2</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<profiles>
+    <profile>
+            <id>steady</id>
+            <activation>
+                <property>
+                    <name>steady</name>
+                </property>
+            </activation>
+            <properties>
+                <vulas.version>3.2.5</vulas.version>
+                <vulas.shared.backend.serviceUrl>http://localhost:8033/backend/</vulas.shared.backend.serviceUrl>
+                <vulas.core.space.token>8A47AF320BB595F19E34924BA7E9B185</vulas.core.space.token>
+                <vulas.core.appContext.group>${project.groupId}</vulas.core.appContext.group>
+                <vulas.core.appContext.artifact>${project.artifactId}</vulas.core.appContext.artifact>
+                <vulas.core.appContext.version>${project.version}</vulas.core.appContext.version>
+            </properties>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.eclipse.steady</groupId>
+                        <artifactId>plugin-maven</artifactId>
+                        <version>3.2.5</version>
+                        <configuration>
+                            <layeredConfiguration>
+                                <vulas.shared.backend.serviceUrl>${vulas.shared.backend.serviceUrl}</vulas.shared.backend.serviceUrl>
+                                <vulas.core.space.token>${vulas.core.space.token}</vulas.core.space.token>
+
+                                <vulas.core.appContext.group>${vulas.core.appContext.group}</vulas.core.appContext.group>
+                                <vulas.core.appContext.artifact>${vulas.core.appContext.artifact}</vulas.core.appContext.artifact>
+                                <vulas.core.appContext.version>${vulas.core.appContext.version}</vulas.core.appContext.version>
+
+                                <vulas.shared.tmpDir>${project.build.directory}/vulas/tmp</vulas.shared.tmpDir>
+                                <vulas.core.uploadDir>${project.build.directory}/vulas/upload</vulas.core.uploadDir>
+                                <vulas.core.app.sourceDir>${project.build.directory}/classes,${project.basedir}/src/main/java,${project.basedir}/src/main/python</vulas.core.app.sourceDir>
+
+                                <!-- steady:instr : Instruments JAR/WAR files found in source dir,
+                                    and writes to target dir. Files in include dir are put into /WEB-INF/lib
+                                    of output WARs. Files in lib dir are part of the class path when instrumenting. -->
+                                <vulas.core.instr.sourceDir>${project.build.directory}</vulas.core.instr.sourceDir>
+                                <vulas.core.instr.targetDir>${project.build.directory}/vulas/target</vulas.core.instr.targetDir>
+                                <vulas.core.instr.includeDir>${project.build.directory}/vulas/include</vulas.core.instr.includeDir>
+                                <vulas.core.instr.libDir>${project.build.directory}/vulas/lib</vulas.core.instr.libDir>
+                                <vulas.core.instr.writeCode>false</vulas.core.instr.writeCode>
+                                <vulas.core.instr.instrumentorsChoosen>org.eclipse.steady.java.monitor.trace.SingleTraceInstrumentor</vulas.core.instr.instrumentorsChoosen>
+                                <vulas.core.instr.searchRecursive>false</vulas.core.instr.searchRecursive>
+                                <vulas.core.monitor.periodicUpload.enabled>false</vulas.core.monitor.periodicUpload.enabled>
+                                <vulas.core.instr.maxStacktraces>10</vulas.core.instr.maxStacktraces>
+
+                                <!-- steady:a2c/t2c : Performs static call graph analysis -->
+                                <vulas.reach.wala.callgraph.reflection>NO_FLOW_TO_CASTS_NO_METHOD_INVOKE</vulas.reach.wala.callgraph.reflection>
+                                <vulas.reach.fwk>soot</vulas.reach.fwk>
+                                <vulas.reach.timeout>60</vulas.reach.timeout>
+
+                                <!-- steady:report -->
+                                <vulas.report.reportDir>${project.build.directory}/vulas/report</vulas.report.reportDir>
+                            </layeredConfiguration>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+  </profiles>
+
+</project>

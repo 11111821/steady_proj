@@ -1,0 +1,599 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< ch.qos.logback:logback-classic >-------------------
+[INFO] Building logback-classic 1.1.7-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- plugin-maven:3.2.5:instr (default-cli) @ logback-classic ---
+2023-07-20 22:00:39,421 [main] [INFO] shared.util.AbstractFileSearch - Found [0] files in relative path [.], i.e., absolute path [/home/ubuntu/logback-classic1/.]
+2023-07-20 22:00:39,438 [main] [INFO] shared.util.AbstractFileSearch - Found [0] files in relative path [.], i.e., absolute path [/home/ubuntu/logback-classic1/.]
+2023-07-20 22:00:39,438 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [Transient-Config-Layer]
+2023-07-20 22:00:39,454 [main] [INFO] shared.util.VulasConfiguration - Added configuration [SystemConfiguration] from source [System-Properties]
+2023-07-20 22:00:39,454 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [Environment-Variables]
+2023-07-20 22:00:39,481 [main] [INFO] shared.util.VulasConfiguration - Added configuration [PropertiesConfiguration] from source [/root/.steady.properties]
+2023-07-20 22:00:39,481 [main] [INFO] se.steady.shared.util.FileUtil - Class loader search path contains [82] items: Search for configurations in JAR files
+2023-07-20 22:00:39,512 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang/3.2.5/lang-3.2.5.jar>steady-core.properties]
+2023-07-20 22:00:39,512 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang/3.2.5/lang-3.2.5.jar>steady-tenant.properties]
+2023-07-20 22:00:39,513 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang/3.2.5/lang-3.2.5.jar>steady-core-sign.properties]
+2023-07-20 22:00:39,527 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java-reach-wala/3.2.5/lang-java-reach-wala-3.2.5.jar>steady-reach-wala.properties]
+2023-07-20 22:00:39,536 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java-reach/3.2.5/lang-java-reach-3.2.5.jar>steady-reach.properties]
+2023-07-20 22:00:39,549 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/shared/3.2.5/shared-3.2.5.jar>steady-version.properties]
+2023-07-20 22:00:39,549 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/shared/3.2.5/shared-3.2.5.jar>steady-shared.properties]
+2023-07-20 22:00:39,551 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java-reach-soot/3.2.5/lang-java-reach-soot-3.2.5.jar>steady-reach-soot.properties]
+2023-07-20 22:00:39,559 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/plugin-maven/3.2.5/plugin-maven-3.2.5.jar>steady-plugin-maven.properties]
+2023-07-20 22:00:39,564 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5.jar>steady-core-sign.properties]
+2023-07-20 22:00:39,564 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5.jar>steady-java.properties]
+2023-07-20 22:00:39,572 [main] [INFO] shared.util.VulasConfiguration - Configuration [1]: Transient-Config-Layer, [0] entries
+2023-07-20 22:00:39,572 [main] [INFO] shared.util.VulasConfiguration - Configuration [2]: System-Properties, [58] entries
+2023-07-20 22:00:39,572 [main] [INFO] shared.util.VulasConfiguration - Configuration [3]: Environment-Variables, [42] entries
+2023-07-20 22:00:39,572 [main] [INFO] shared.util.VulasConfiguration - Configuration [4]: /root/.steady.properties, [1] entries
+2023-07-20 22:00:39,573 [main] [INFO] shared.util.VulasConfiguration - Configuration [5]: /root/.m2/repository/org/eclipse/steady/lang/3.2.5/lang-3.2.5.jar>steady-core.properties, [19] entries
+2023-07-20 22:00:39,573 [main] [INFO] shared.util.VulasConfiguration - Configuration [6]: /root/.m2/repository/org/eclipse/steady/lang/3.2.5/lang-3.2.5.jar>steady-tenant.properties, [1] entries
+2023-07-20 22:00:39,573 [main] [INFO] shared.util.VulasConfiguration - Configuration [7]: /root/.m2/repository/org/eclipse/steady/lang/3.2.5/lang-3.2.5.jar>steady-core-sign.properties, [10] entries
+2023-07-20 22:00:39,574 [main] [INFO] shared.util.VulasConfiguration - Configuration [8]: /root/.m2/repository/org/eclipse/steady/lang-java-reach-wala/3.2.5/lang-java-reach-wala-3.2.5.jar>steady-reach-wala.properties, [3] entries
+2023-07-20 22:00:39,574 [main] [INFO] shared.util.VulasConfiguration - Configuration [9]: /root/.m2/repository/org/eclipse/steady/lang-java-reach/3.2.5/lang-java-reach-3.2.5.jar>steady-reach.properties, [15] entries
+2023-07-20 22:00:39,574 [main] [INFO] shared.util.VulasConfiguration - Configuration [10]: /root/.m2/repository/org/eclipse/steady/shared/3.2.5/shared-3.2.5.jar>steady-version.properties, [4] entries
+2023-07-20 22:00:39,574 [main] [INFO] shared.util.VulasConfiguration - Configuration [11]: /root/.m2/repository/org/eclipse/steady/shared/3.2.5/shared-3.2.5.jar>steady-shared.properties, [10] entries
+2023-07-20 22:00:39,574 [main] [INFO] shared.util.VulasConfiguration - Configuration [12]: /root/.m2/repository/org/eclipse/steady/lang-java-reach-soot/3.2.5/lang-java-reach-soot-3.2.5.jar>steady-reach-soot.properties, [10] entries
+2023-07-20 22:00:39,574 [main] [INFO] shared.util.VulasConfiguration - Configuration [13]: /root/.m2/repository/org/eclipse/steady/plugin-maven/3.2.5/plugin-maven-3.2.5.jar>steady-plugin-maven.properties, [3] entries
+2023-07-20 22:00:39,574 [main] [INFO] shared.util.VulasConfiguration - Configuration [14]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5.jar>steady-core-sign.properties, [10] entries
+2023-07-20 22:00:39,575 [main] [INFO] shared.util.VulasConfiguration - Configuration [15]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5.jar>steady-java.properties, [22] entries
+2023-07-20 22:00:39,575 [main] [INFO] shared.util.VulasConfiguration - Configuration with prefix(es) [http, https, vulas]
+2023-07-20 22:00:39,582 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.app.uploadEmpty=false
+2023-07-20 22:00:39,583 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.app.uploadLibrary=false
+2023-07-20 22:00:39,583 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.backendConnection=READ_WRITE
+2023-07-20 22:00:39,583 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.clean.goalHistory=false
+2023-07-20 22:00:39,583 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.clean.purgeVersions=false
+2023-07-20 22:00:39,584 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.clean.purgeVersions.keepLast=3
+2023-07-20 22:00:39,585 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classes=[org.apache.maven.surefire, org.junit, org.eclipse.steady, org.jacoco.]
+2023-07-20 22:00:39,586 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classes.jre=[java., sun., com.sun., org.xml., org.ietf., org.jcp., org.omg.]
+2023-07-20 22:00:39,587 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classloader=[sun.reflect.DelegatingClassLoader, javax.management.remote.rmi.NoCallStackClassLoader, org.powermock.core.classloader.MockClassLoader]
+2023-07-20 22:00:39,587 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.jars=[lang-java-.*.jar, surefire-.*.jar, junit-.*.jar, org.jacoco.agent.*.jar]
+2023-07-20 22:00:39,588 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.jars.ignoreScopes=[test, provided]
+2023-07-20 22:00:39,588 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.instrumentorsChoosen=org.eclipse.steady.java.monitor.trace.SingleTraceInstrumentor
+2023-07-20 22:00:39,589 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.maxStacktraces=10
+2023-07-20 22:00:39,589 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.printErrorStackTrace=true
+2023-07-20 22:00:39,590 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.slice.guardOpen=true
+2023-07-20 22:00:39,590 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.static.inclBackendUrl=true
+2023-07-20 22:00:39,590 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.static.inclSpace=true
+2023-07-20 22:00:39,591 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.whitelist.classloader.acceptChilds=true
+2023-07-20 22:00:39,591 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.writeCode=false
+2023-07-20 22:00:39,591 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.jarAnalysis.poolSize=4
+2023-07-20 22:00:39,592 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.blacklist.jars=[lang-java-.*.jar, surefire-.*.jar, junit-.*.jar, org.jacoco.agent.*.jar]
+2023-07-20 22:00:39,592 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.maxItems=-1
+2023-07-20 22:00:39,592 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.batchSize=1000
+2023-07-20 22:00:39,593 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.enabled=true
+2023-07-20 22:00:39,593 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.interval=300000
+2023-07-20 22:00:39,593 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.noThreads=AUTO
+2023-07-20 22:00:39,594 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.repeatHttp.max=50
+2023-07-20 22:00:39,594 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.repeatHttp.waitMilli=60000
+2023-07-20 22:00:39,594 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sequence.defaultGoals=[CLEAN, APP, A2C, REPORT]
+2023-07-20 22:00:39,596 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxDecompiler=false
+2023-07-20 22:00:39,596 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxEditScript=true
+2023-07-20 22:00:39,596 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxEqualIgnoreParentRoot=false
+2023-07-20 22:00:39,597 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxRelaxedByDefault=false
+2023-07-20 22:00:39,597 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxStripFinals=true
+2023-07-20 22:00:39,597 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.saveDecompiledArchive=false
+2023-07-20 22:00:39,597 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.saveEditScriptIntersection=false
+2023-07-20 22:00:39,597 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.saveEditScripts=false
+2023-07-20 22:00:39,598 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.showDecompiledConstruct=false
+2023-07-20 22:00:39,599 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.skipKnownArchive=false
+2023-07-20 22:00:39,599 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.tenant.token=603EFBA1EA9B98ADB4B548682597E6D0
+2023-07-20 22:00:39,600 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.upload.deleteAfterSuccess=true
+2023-07-20 22:00:39,600 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.upload.maxSize=-1
+2023-07-20 22:00:39,600 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.verifyJars=true
+2023-07-20 22:00:39,600 [main] [INFO] shared.util.VulasConfiguration -     vulas.maven.ignorePoms=false
+2023-07-20 22:00:39,601 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.blacklist.classes.custom=[org.apache.maven.surefire, org.junit, org.eclipse.steady]
+2023-07-20 22:00:39,601 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.blacklist.classes.jre=[java., sun, com.sun, org.xml, org.ietf, org.jcp, org.omg, com.ibm.wala]
+2023-07-20 22:00:39,601 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.cli.plugins.dir=plugins
+2023-07-20 22:00:39,602 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.excludeJars=WebServicesAgent.jar
+2023-07-20 22:00:39,602 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.exitOnUnknownEntryPoints=false
+2023-07-20 22:00:39,602 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.fwk=soot
+2023-07-20 22:00:39,602 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.identifyTouchpoints=true
+2023-07-20 22:00:39,603 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.maxPathPerChangeListElement=10
+2023-07-20 22:00:39,604 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.preprocessDependencies=true
+2023-07-20 22:00:39,604 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.searchShortest=true
+2023-07-20 22:00:39,605 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.allowPhantom=true
+2023-07-20 22:00:39,605 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.appMode=false
+2023-07-20 22:00:39,605 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.entrypointGenerator=none
+2023-07-20 22:00:39,606 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.exclusions=java.awt.*;javax.swing.*;sun.awt.*;sun.swing.*;org.netbeans.*;com.sun.*;org.openide.*;com.ibm.crypto.*;com.ibm.security.*;org.apache.xerces.*
+2023-07-20 22:00:39,609 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.nobodyForX=true
+2023-07-20 22:00:39,609 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.spark=true
+2023-07-20 22:00:39,609 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.spark.otf=true
+2023-07-20 22:00:39,609 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.spark.rta=false
+2023-07-20 22:00:39,610 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.spark.vta=false
+2023-07-20 22:00:39,610 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.verbose=false
+2023-07-20 22:00:39,610 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.timeout=120
+2023-07-20 22:00:39,611 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.wala.callgraph.algorithm=0-1-CFA
+2023-07-20 22:00:39,611 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.wala.callgraph.exclusions=java/awt/.*;javax/swing/.*;sun/awt/.*;sun/swing/.*;org/netbeans/.*;com/sun/.*;org/openide/.*;com/ibm/crypto/.*;com/ibm/security/.*;org/apache/xerces/.*
+2023-07-20 22:00:39,611 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.wala.callgraph.reflection=NO_FLOW_TO_CASTS_NO_METHOD_INVOKE
+2023-07-20 22:00:39,612 [main] [INFO] shared.util.VulasConfiguration -     vulas.report.exceptionExcludeUnassessed=all
+2023-07-20 22:00:39,612 [main] [INFO] shared.util.VulasConfiguration -     vulas.report.exceptionThreshold=dependsOn
+2023-07-20 22:00:39,612 [main] [INFO] shared.util.VulasConfiguration -     vulas.report.exemptScope=[TEST, PROVIDED]
+2023-07-20 22:00:39,612 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.backend.serviceUrl=http://localhost:8033/backend
+2023-07-20 22:00:39,613 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.buildBranch=UNKNOWN
+2023-07-20 22:00:39,613 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.buildNumber=3d261afe9513f7c708324aa0183423ab2e9e4692
+2023-07-20 22:00:39,614 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.buildTimestamp=2022-09-20T08:33:43+00:00
+2023-07-20 22:00:39,614 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.charset=UTF-8
+2023-07-20 22:00:39,615 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.cve.serviceUrl=https://services.nvd.nist.gov/rest/json/cve/1.0/<ID>
+2023-07-20 22:00:39,615 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.env=[PROCESSOR_IDENTIFIER, NUMBER_OF_PROCESSORS, PROCESSOR_LEVEL, PROCESSOR_ARCHITECTURE, PROCESSOR_REVISION, JAVA_HOME, COMPUTERNAME, MAVEN_PROJECTBASEDIR, MAVEN_HOME, MAVEN_CONFIG, MAVEN_OPTS, BUILD_URL, BUILD_TAG, BUILD_TIMESTAMP, BUILD_DISPLAY_NAME, BUILD_ID, BUILD_NUMBER, BUILD_VERSION]
+2023-07-20 22:00:39,615 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.homepage=https://eclipse.github.io/steady
+2023-07-20 22:00:39,616 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.sys=[os., java., runtime., maven., sun.]
+2023-07-20 22:00:39,616 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.version=3.2.5
+2023-07-20 22:00:39,638 [main] [INFO] shared.util.VulasConfiguration - Added new configuration layer [Maven-Plugin-Config] with [21] settings on 3rd position, old/new number of layers is [15/16]
+2023-07-20 22:00:39,639 [main] [INFO] shared.util.VulasConfiguration - Configuration [1]: Transient-Config-Layer, [0] entries
+2023-07-20 22:00:39,639 [main] [INFO] shared.util.VulasConfiguration - Configuration [2]: System-Properties, [58] entries
+2023-07-20 22:00:39,639 [main] [INFO] shared.util.VulasConfiguration - Configuration [3]: Maven-Plugin-Config, [21] entries
+2023-07-20 22:00:39,640 [main] [INFO] shared.util.VulasConfiguration - Configuration [4]: Environment-Variables, [42] entries
+2023-07-20 22:00:39,640 [main] [INFO] shared.util.VulasConfiguration - Configuration [5]: /root/.steady.properties, [1] entries
+2023-07-20 22:00:39,640 [main] [INFO] shared.util.VulasConfiguration - Configuration [6]: /root/.m2/repository/org/eclipse/steady/lang/3.2.5/lang-3.2.5.jar>steady-core.properties, [19] entries
+2023-07-20 22:00:39,640 [main] [INFO] shared.util.VulasConfiguration - Configuration [7]: /root/.m2/repository/org/eclipse/steady/lang/3.2.5/lang-3.2.5.jar>steady-tenant.properties, [1] entries
+2023-07-20 22:00:39,641 [main] [INFO] shared.util.VulasConfiguration - Configuration [8]: /root/.m2/repository/org/eclipse/steady/lang/3.2.5/lang-3.2.5.jar>steady-core-sign.properties, [10] entries
+2023-07-20 22:00:39,641 [main] [INFO] shared.util.VulasConfiguration - Configuration [9]: /root/.m2/repository/org/eclipse/steady/lang-java-reach-wala/3.2.5/lang-java-reach-wala-3.2.5.jar>steady-reach-wala.properties, [3] entries
+2023-07-20 22:00:39,641 [main] [INFO] shared.util.VulasConfiguration - Configuration [10]: /root/.m2/repository/org/eclipse/steady/lang-java-reach/3.2.5/lang-java-reach-3.2.5.jar>steady-reach.properties, [15] entries
+2023-07-20 22:00:39,641 [main] [INFO] shared.util.VulasConfiguration - Configuration [11]: /root/.m2/repository/org/eclipse/steady/shared/3.2.5/shared-3.2.5.jar>steady-version.properties, [4] entries
+2023-07-20 22:00:39,642 [main] [INFO] shared.util.VulasConfiguration - Configuration [12]: /root/.m2/repository/org/eclipse/steady/shared/3.2.5/shared-3.2.5.jar>steady-shared.properties, [10] entries
+2023-07-20 22:00:39,644 [main] [INFO] shared.util.VulasConfiguration - Configuration [13]: /root/.m2/repository/org/eclipse/steady/lang-java-reach-soot/3.2.5/lang-java-reach-soot-3.2.5.jar>steady-reach-soot.properties, [10] entries
+2023-07-20 22:00:39,644 [main] [INFO] shared.util.VulasConfiguration - Configuration [14]: /root/.m2/repository/org/eclipse/steady/plugin-maven/3.2.5/plugin-maven-3.2.5.jar>steady-plugin-maven.properties, [3] entries
+2023-07-20 22:00:39,645 [main] [INFO] shared.util.VulasConfiguration - Configuration [15]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5.jar>steady-core-sign.properties, [10] entries
+2023-07-20 22:00:39,645 [main] [INFO] shared.util.VulasConfiguration - Configuration [16]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5.jar>steady-java.properties, [22] entries
+2023-07-20 22:00:39,645 [main] [INFO] shared.util.VulasConfiguration - Configuration with prefix(es) [http, https, vulas]
+2023-07-20 22:00:39,646 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.app.sourceDir=[/home/ubuntu/logback-classic1/target/classes, /home/ubuntu/logback-classic1/src/main/java, /home/ubuntu/logback-classic1/src/main/python]
+2023-07-20 22:00:39,646 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.app.uploadEmpty=false
+2023-07-20 22:00:39,646 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.app.uploadLibrary=false
+2023-07-20 22:00:39,647 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.appContext.artifact=logback-classic
+2023-07-20 22:00:39,647 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.appContext.group=ch.qos.logback
+2023-07-20 22:00:39,647 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.appContext.version=1.1.7-SNAPSHOT
+2023-07-20 22:00:39,647 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.backendConnection=READ_WRITE
+2023-07-20 22:00:39,647 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.clean.goalHistory=false
+2023-07-20 22:00:39,647 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.clean.purgeVersions=false
+2023-07-20 22:00:39,647 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.clean.purgeVersions.keepLast=3
+2023-07-20 22:00:39,648 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classes=[org.apache.maven.surefire, org.junit, org.eclipse.steady, org.jacoco.]
+2023-07-20 22:00:39,648 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classes.jre=[java., sun., com.sun., org.xml., org.ietf., org.jcp., org.omg.]
+2023-07-20 22:00:39,649 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classloader=[sun.reflect.DelegatingClassLoader, javax.management.remote.rmi.NoCallStackClassLoader, org.powermock.core.classloader.MockClassLoader]
+2023-07-20 22:00:39,649 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.jars=[lang-java-.*.jar, surefire-.*.jar, junit-.*.jar, org.jacoco.agent.*.jar]
+2023-07-20 22:00:39,649 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.jars.ignoreScopes=[test, provided]
+2023-07-20 22:00:39,649 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.includeDir=/home/ubuntu/logback-classic1/target/vulas/include
+2023-07-20 22:00:39,651 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.instrumentorsChoosen=org.eclipse.steady.java.monitor.trace.SingleTraceInstrumentor
+2023-07-20 22:00:39,651 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.libDir=/home/ubuntu/logback-classic1/target/vulas/lib
+2023-07-20 22:00:39,651 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.maxStacktraces=10
+2023-07-20 22:00:39,651 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.printErrorStackTrace=true
+2023-07-20 22:00:39,651 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.searchRecursive=false
+2023-07-20 22:00:39,652 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.slice.guardOpen=true
+2023-07-20 22:00:39,652 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.sourceDir=/home/ubuntu/logback-classic1/target
+2023-07-20 22:00:39,652 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.static.inclBackendUrl=true
+2023-07-20 22:00:39,652 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.static.inclSpace=true
+2023-07-20 22:00:39,652 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.targetDir=/home/ubuntu/logback-classic1/target/vulas/target
+2023-07-20 22:00:39,652 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.whitelist.classloader.acceptChilds=true
+2023-07-20 22:00:39,653 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.writeCode=false
+2023-07-20 22:00:39,654 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.jarAnalysis.poolSize=4
+2023-07-20 22:00:39,654 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.blacklist.jars=[lang-java-.*.jar, surefire-.*.jar, junit-.*.jar, org.jacoco.agent.*.jar]
+2023-07-20 22:00:39,654 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.maxItems=-1
+2023-07-20 22:00:39,655 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.batchSize=1000
+2023-07-20 22:00:39,655 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.enabled=false
+2023-07-20 22:00:39,655 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.interval=300000
+2023-07-20 22:00:39,655 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.noThreads=AUTO
+2023-07-20 22:00:39,655 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.repeatHttp.max=50
+2023-07-20 22:00:39,655 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.repeatHttp.waitMilli=60000
+2023-07-20 22:00:39,656 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sequence.defaultGoals=[CLEAN, APP, A2C, REPORT]
+2023-07-20 22:00:39,656 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxDecompiler=false
+2023-07-20 22:00:39,656 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxEditScript=true
+2023-07-20 22:00:39,657 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxEqualIgnoreParentRoot=false
+2023-07-20 22:00:39,657 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxRelaxedByDefault=false
+2023-07-20 22:00:39,658 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxStripFinals=true
+2023-07-20 22:00:39,658 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.saveDecompiledArchive=false
+2023-07-20 22:00:39,658 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.saveEditScriptIntersection=false
+2023-07-20 22:00:39,658 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.saveEditScripts=false
+2023-07-20 22:00:39,659 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.showDecompiledConstruct=false
+2023-07-20 22:00:39,659 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.skipKnownArchive=false
+2023-07-20 22:00:39,659 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.space.token=8A47AF320BB595F19E34924BA7E9B185
+2023-07-20 22:00:39,659 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.tenant.token=603EFBA1EA9B98ADB4B548682597E6D0
+2023-07-20 22:00:39,659 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.upload.deleteAfterSuccess=true
+2023-07-20 22:00:39,660 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.upload.maxSize=-1
+2023-07-20 22:00:39,660 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.uploadDir=/home/ubuntu/logback-classic1/target/vulas/upload
+2023-07-20 22:00:39,660 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.verifyJars=true
+2023-07-20 22:00:39,660 [main] [INFO] shared.util.VulasConfiguration -     vulas.maven.ignorePoms=false
+2023-07-20 22:00:39,660 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.blacklist.classes.custom=[org.apache.maven.surefire, org.junit, org.eclipse.steady]
+2023-07-20 22:00:39,661 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.blacklist.classes.jre=[java., sun, com.sun, org.xml, org.ietf, org.jcp, org.omg, com.ibm.wala]
+2023-07-20 22:00:39,661 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.cli.plugins.dir=plugins
+2023-07-20 22:00:39,661 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.excludeJars=WebServicesAgent.jar
+2023-07-20 22:00:39,661 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.exitOnUnknownEntryPoints=false
+2023-07-20 22:00:39,661 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.fwk=soot
+2023-07-20 22:00:39,662 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.identifyTouchpoints=true
+2023-07-20 22:00:39,662 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.maxPathPerChangeListElement=10
+2023-07-20 22:00:39,662 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.preprocessDependencies=true
+2023-07-20 22:00:39,662 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.searchShortest=true
+2023-07-20 22:00:39,662 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.allowPhantom=true
+2023-07-20 22:00:39,662 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.appMode=false
+2023-07-20 22:00:39,663 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.entrypointGenerator=none
+2023-07-20 22:00:39,663 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.exclusions=java.awt.*;javax.swing.*;sun.awt.*;sun.swing.*;org.netbeans.*;com.sun.*;org.openide.*;com.ibm.crypto.*;com.ibm.security.*;org.apache.xerces.*
+2023-07-20 22:00:39,663 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.nobodyForX=true
+2023-07-20 22:00:39,663 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.spark=true
+2023-07-20 22:00:39,663 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.spark.otf=true
+2023-07-20 22:00:39,664 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.spark.rta=false
+2023-07-20 22:00:39,664 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.spark.vta=false
+2023-07-20 22:00:39,664 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.verbose=false
+2023-07-20 22:00:39,664 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.timeout=60
+2023-07-20 22:00:39,664 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.wala.callgraph.algorithm=0-1-CFA
+2023-07-20 22:00:39,665 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.wala.callgraph.exclusions=java/awt/.*;javax/swing/.*;sun/awt/.*;sun/swing/.*;org/netbeans/.*;com/sun/.*;org/openide/.*;com/ibm/crypto/.*;com/ibm/security/.*;org/apache/xerces/.*
+2023-07-20 22:00:39,665 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.wala.callgraph.reflection=NO_FLOW_TO_CASTS_NO_METHOD_INVOKE
+2023-07-20 22:00:39,665 [main] [INFO] shared.util.VulasConfiguration -     vulas.report.exceptionExcludeUnassessed=all
+2023-07-20 22:00:39,665 [main] [INFO] shared.util.VulasConfiguration -     vulas.report.exceptionThreshold=dependsOn
+2023-07-20 22:00:39,665 [main] [INFO] shared.util.VulasConfiguration -     vulas.report.exemptScope=[TEST, PROVIDED]
+2023-07-20 22:00:39,665 [main] [INFO] shared.util.VulasConfiguration -     vulas.report.reportDir=/home/ubuntu/logback-classic1/target/vulas/report
+2023-07-20 22:00:39,665 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.backend.serviceUrl=http://localhost:8033/backend/
+2023-07-20 22:00:39,666 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.buildBranch=UNKNOWN
+2023-07-20 22:00:39,666 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.buildNumber=3d261afe9513f7c708324aa0183423ab2e9e4692
+2023-07-20 22:00:39,666 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.buildTimestamp=2022-09-20T08:33:43+00:00
+2023-07-20 22:00:39,666 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.charset=UTF-8
+2023-07-20 22:00:39,666 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.cve.serviceUrl=https://services.nvd.nist.gov/rest/json/cve/1.0/<ID>
+2023-07-20 22:00:39,666 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.env=[PROCESSOR_IDENTIFIER, NUMBER_OF_PROCESSORS, PROCESSOR_LEVEL, PROCESSOR_ARCHITECTURE, PROCESSOR_REVISION, JAVA_HOME, COMPUTERNAME, MAVEN_PROJECTBASEDIR, MAVEN_HOME, MAVEN_CONFIG, MAVEN_OPTS, BUILD_URL, BUILD_TAG, BUILD_TIMESTAMP, BUILD_DISPLAY_NAME, BUILD_ID, BUILD_NUMBER, BUILD_VERSION]
+2023-07-20 22:00:39,667 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.homepage=https://eclipse.github.io/steady
+2023-07-20 22:00:39,667 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.sys=[os., java., runtime., maven., sun.]
+2023-07-20 22:00:39,667 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.tmpDir=/home/ubuntu/logback-classic1/target/vulas/tmp
+2023-07-20 22:00:39,667 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.version=3.2.5
+2023-07-20 22:00:39,669 [main] [INFO] shared.util.AbstractFileSearch - Found [0] files in relative path [.], i.e., absolute path [/home/ubuntu/logback-classic1/.]
+2023-07-20 22:00:39,670 [main] [INFO] shared.util.AbstractFileSearch - Found [0] files in relative path [.], i.e., absolute path [/home/ubuntu/logback-classic1/.]
+2023-07-20 22:00:39,670 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [Transient-Config-Layer]
+2023-07-20 22:00:39,670 [main] [INFO] shared.util.VulasConfiguration - Added configuration [SystemConfiguration] from source [System-Properties]
+2023-07-20 22:00:39,671 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [Environment-Variables]
+2023-07-20 22:00:39,671 [main] [INFO] shared.util.VulasConfiguration - Added configuration [PropertiesConfiguration] from source [/root/.steady.properties]
+2023-07-20 22:00:39,671 [main] [INFO] se.steady.shared.util.FileUtil - Class loader search path contains [82] items: Search for configurations in JAR files
+2023-07-20 22:00:39,684 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang/3.2.5/lang-3.2.5.jar>steady-core.properties]
+2023-07-20 22:00:39,684 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang/3.2.5/lang-3.2.5.jar>steady-tenant.properties]
+2023-07-20 22:00:39,684 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang/3.2.5/lang-3.2.5.jar>steady-core-sign.properties]
+2023-07-20 22:00:39,694 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java-reach-wala/3.2.5/lang-java-reach-wala-3.2.5.jar>steady-reach-wala.properties]
+2023-07-20 22:00:39,698 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java-reach/3.2.5/lang-java-reach-3.2.5.jar>steady-reach.properties]
+2023-07-20 22:00:39,704 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/shared/3.2.5/shared-3.2.5.jar>steady-version.properties]
+2023-07-20 22:00:39,704 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/shared/3.2.5/shared-3.2.5.jar>steady-shared.properties]
+2023-07-20 22:00:39,705 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java-reach-soot/3.2.5/lang-java-reach-soot-3.2.5.jar>steady-reach-soot.properties]
+2023-07-20 22:00:39,708 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/plugin-maven/3.2.5/plugin-maven-3.2.5.jar>steady-plugin-maven.properties]
+2023-07-20 22:00:39,710 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5.jar>steady-core-sign.properties]
+2023-07-20 22:00:39,710 [main] [INFO] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5.jar>steady-java.properties]
+2023-07-20 22:00:39,714 [main] [INFO] shared.util.VulasConfiguration - Configuration [1]: Transient-Config-Layer, [0] entries
+2023-07-20 22:00:39,715 [main] [INFO] shared.util.VulasConfiguration - Configuration [2]: System-Properties, [58] entries
+2023-07-20 22:00:39,715 [main] [INFO] shared.util.VulasConfiguration - Configuration [3]: Environment-Variables, [42] entries
+2023-07-20 22:00:39,715 [main] [INFO] shared.util.VulasConfiguration - Configuration [4]: /root/.steady.properties, [1] entries
+2023-07-20 22:00:39,715 [main] [INFO] shared.util.VulasConfiguration - Configuration [5]: /root/.m2/repository/org/eclipse/steady/lang/3.2.5/lang-3.2.5.jar>steady-core.properties, [19] entries
+2023-07-20 22:00:39,715 [main] [INFO] shared.util.VulasConfiguration - Configuration [6]: /root/.m2/repository/org/eclipse/steady/lang/3.2.5/lang-3.2.5.jar>steady-tenant.properties, [1] entries
+2023-07-20 22:00:39,715 [main] [INFO] shared.util.VulasConfiguration - Configuration [7]: /root/.m2/repository/org/eclipse/steady/lang/3.2.5/lang-3.2.5.jar>steady-core-sign.properties, [10] entries
+2023-07-20 22:00:39,715 [main] [INFO] shared.util.VulasConfiguration - Configuration [8]: /root/.m2/repository/org/eclipse/steady/lang-java-reach-wala/3.2.5/lang-java-reach-wala-3.2.5.jar>steady-reach-wala.properties, [3] entries
+2023-07-20 22:00:39,715 [main] [INFO] shared.util.VulasConfiguration - Configuration [9]: /root/.m2/repository/org/eclipse/steady/lang-java-reach/3.2.5/lang-java-reach-3.2.5.jar>steady-reach.properties, [15] entries
+2023-07-20 22:00:39,715 [main] [INFO] shared.util.VulasConfiguration - Configuration [10]: /root/.m2/repository/org/eclipse/steady/shared/3.2.5/shared-3.2.5.jar>steady-version.properties, [4] entries
+2023-07-20 22:00:39,715 [main] [INFO] shared.util.VulasConfiguration - Configuration [11]: /root/.m2/repository/org/eclipse/steady/shared/3.2.5/shared-3.2.5.jar>steady-shared.properties, [10] entries
+2023-07-20 22:00:39,715 [main] [INFO] shared.util.VulasConfiguration - Configuration [12]: /root/.m2/repository/org/eclipse/steady/lang-java-reach-soot/3.2.5/lang-java-reach-soot-3.2.5.jar>steady-reach-soot.properties, [10] entries
+2023-07-20 22:00:39,715 [main] [INFO] shared.util.VulasConfiguration - Configuration [13]: /root/.m2/repository/org/eclipse/steady/plugin-maven/3.2.5/plugin-maven-3.2.5.jar>steady-plugin-maven.properties, [3] entries
+2023-07-20 22:00:39,715 [main] [INFO] shared.util.VulasConfiguration - Configuration [14]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5.jar>steady-core-sign.properties, [10] entries
+2023-07-20 22:00:39,715 [main] [INFO] shared.util.VulasConfiguration - Configuration [15]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5.jar>steady-java.properties, [22] entries
+2023-07-20 22:00:39,716 [main] [INFO] shared.util.VulasConfiguration - Configuration with prefix(es) [http, https, vulas]
+2023-07-20 22:00:39,717 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.app.uploadEmpty=false
+2023-07-20 22:00:39,717 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.app.uploadLibrary=false
+2023-07-20 22:00:39,717 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.backendConnection=READ_WRITE
+2023-07-20 22:00:39,717 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.clean.goalHistory=false
+2023-07-20 22:00:39,717 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.clean.purgeVersions=false
+2023-07-20 22:00:39,717 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.clean.purgeVersions.keepLast=3
+2023-07-20 22:00:39,718 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classes=[org.apache.maven.surefire, org.junit, org.eclipse.steady, org.jacoco.]
+2023-07-20 22:00:39,718 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classes.jre=[java., sun., com.sun., org.xml., org.ietf., org.jcp., org.omg.]
+2023-07-20 22:00:39,718 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classloader=[sun.reflect.DelegatingClassLoader, javax.management.remote.rmi.NoCallStackClassLoader, org.powermock.core.classloader.MockClassLoader]
+2023-07-20 22:00:39,718 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.jars=[lang-java-.*.jar, surefire-.*.jar, junit-.*.jar, org.jacoco.agent.*.jar]
+2023-07-20 22:00:39,719 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.jars.ignoreScopes=[test, provided]
+2023-07-20 22:00:39,719 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.instrumentorsChoosen=org.eclipse.steady.java.monitor.trace.SingleTraceInstrumentor
+2023-07-20 22:00:39,719 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.maxStacktraces=10
+2023-07-20 22:00:39,720 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.printErrorStackTrace=true
+2023-07-20 22:00:39,720 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.slice.guardOpen=true
+2023-07-20 22:00:39,720 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.static.inclBackendUrl=true
+2023-07-20 22:00:39,720 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.static.inclSpace=true
+2023-07-20 22:00:39,720 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.whitelist.classloader.acceptChilds=true
+2023-07-20 22:00:39,721 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.writeCode=false
+2023-07-20 22:00:39,721 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.jarAnalysis.poolSize=4
+2023-07-20 22:00:39,721 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.blacklist.jars=[lang-java-.*.jar, surefire-.*.jar, junit-.*.jar, org.jacoco.agent.*.jar]
+2023-07-20 22:00:39,721 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.maxItems=-1
+2023-07-20 22:00:39,721 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.batchSize=1000
+2023-07-20 22:00:39,722 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.enabled=true
+2023-07-20 22:00:39,722 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.interval=300000
+2023-07-20 22:00:39,722 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.noThreads=AUTO
+2023-07-20 22:00:39,722 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.repeatHttp.max=50
+2023-07-20 22:00:39,722 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.repeatHttp.waitMilli=60000
+2023-07-20 22:00:39,723 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sequence.defaultGoals=[CLEAN, APP, A2C, REPORT]
+2023-07-20 22:00:39,723 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxDecompiler=false
+2023-07-20 22:00:39,723 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxEditScript=true
+2023-07-20 22:00:39,723 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxEqualIgnoreParentRoot=false
+2023-07-20 22:00:39,723 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxRelaxedByDefault=false
+2023-07-20 22:00:39,723 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxStripFinals=true
+2023-07-20 22:00:39,724 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.saveDecompiledArchive=false
+2023-07-20 22:00:39,724 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.saveEditScriptIntersection=false
+2023-07-20 22:00:39,724 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.saveEditScripts=false
+2023-07-20 22:00:39,724 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.showDecompiledConstruct=false
+2023-07-20 22:00:39,724 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.skipKnownArchive=false
+2023-07-20 22:00:39,724 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.tenant.token=603EFBA1EA9B98ADB4B548682597E6D0
+2023-07-20 22:00:39,724 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.upload.deleteAfterSuccess=true
+2023-07-20 22:00:39,725 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.upload.maxSize=-1
+2023-07-20 22:00:39,725 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.verifyJars=true
+2023-07-20 22:00:39,725 [main] [INFO] shared.util.VulasConfiguration -     vulas.maven.ignorePoms=false
+2023-07-20 22:00:39,725 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.blacklist.classes.custom=[org.apache.maven.surefire, org.junit, org.eclipse.steady]
+2023-07-20 22:00:39,726 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.blacklist.classes.jre=[java., sun, com.sun, org.xml, org.ietf, org.jcp, org.omg, com.ibm.wala]
+2023-07-20 22:00:39,726 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.cli.plugins.dir=plugins
+2023-07-20 22:00:39,726 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.excludeJars=WebServicesAgent.jar
+2023-07-20 22:00:39,726 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.exitOnUnknownEntryPoints=false
+2023-07-20 22:00:39,727 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.fwk=soot
+2023-07-20 22:00:39,727 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.identifyTouchpoints=true
+2023-07-20 22:00:39,727 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.maxPathPerChangeListElement=10
+2023-07-20 22:00:39,727 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.preprocessDependencies=true
+2023-07-20 22:00:39,727 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.searchShortest=true
+2023-07-20 22:00:39,727 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.allowPhantom=true
+2023-07-20 22:00:39,728 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.appMode=false
+2023-07-20 22:00:39,728 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.entrypointGenerator=none
+2023-07-20 22:00:39,728 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.exclusions=java.awt.*;javax.swing.*;sun.awt.*;sun.swing.*;org.netbeans.*;com.sun.*;org.openide.*;com.ibm.crypto.*;com.ibm.security.*;org.apache.xerces.*
+2023-07-20 22:00:39,728 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.nobodyForX=true
+2023-07-20 22:00:39,728 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.spark=true
+2023-07-20 22:00:39,728 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.spark.otf=true
+2023-07-20 22:00:39,729 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.spark.rta=false
+2023-07-20 22:00:39,729 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.spark.vta=false
+2023-07-20 22:00:39,729 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.verbose=false
+2023-07-20 22:00:39,729 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.timeout=120
+2023-07-20 22:00:39,729 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.wala.callgraph.algorithm=0-1-CFA
+2023-07-20 22:00:39,730 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.wala.callgraph.exclusions=java/awt/.*;javax/swing/.*;sun/awt/.*;sun/swing/.*;org/netbeans/.*;com/sun/.*;org/openide/.*;com/ibm/crypto/.*;com/ibm/security/.*;org/apache/xerces/.*
+2023-07-20 22:00:39,730 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.wala.callgraph.reflection=NO_FLOW_TO_CASTS_NO_METHOD_INVOKE
+2023-07-20 22:00:39,730 [main] [INFO] shared.util.VulasConfiguration -     vulas.report.exceptionExcludeUnassessed=all
+2023-07-20 22:00:39,730 [main] [INFO] shared.util.VulasConfiguration -     vulas.report.exceptionThreshold=dependsOn
+2023-07-20 22:00:39,730 [main] [INFO] shared.util.VulasConfiguration -     vulas.report.exemptScope=[TEST, PROVIDED]
+2023-07-20 22:00:39,730 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.backend.serviceUrl=http://localhost:8033/backend
+2023-07-20 22:00:39,730 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.buildBranch=UNKNOWN
+2023-07-20 22:00:39,731 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.buildNumber=3d261afe9513f7c708324aa0183423ab2e9e4692
+2023-07-20 22:00:39,731 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.buildTimestamp=2022-09-20T08:33:43+00:00
+2023-07-20 22:00:39,731 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.charset=UTF-8
+2023-07-20 22:00:39,731 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.cve.serviceUrl=https://services.nvd.nist.gov/rest/json/cve/1.0/<ID>
+2023-07-20 22:00:39,731 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.env=[PROCESSOR_IDENTIFIER, NUMBER_OF_PROCESSORS, PROCESSOR_LEVEL, PROCESSOR_ARCHITECTURE, PROCESSOR_REVISION, JAVA_HOME, COMPUTERNAME, MAVEN_PROJECTBASEDIR, MAVEN_HOME, MAVEN_CONFIG, MAVEN_OPTS, BUILD_URL, BUILD_TAG, BUILD_TIMESTAMP, BUILD_DISPLAY_NAME, BUILD_ID, BUILD_NUMBER, BUILD_VERSION]
+2023-07-20 22:00:39,732 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.homepage=https://eclipse.github.io/steady
+2023-07-20 22:00:39,732 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.sys=[os., java., runtime., maven., sun.]
+2023-07-20 22:00:39,732 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.version=3.2.5
+2023-07-20 22:00:39,732 [main] [INFO] shared.util.VulasConfiguration - Added new configuration layer [Maven-Plugin-Config] with [21] settings on 3rd position, old/new number of layers is [15/16]
+2023-07-20 22:00:39,732 [main] [INFO] shared.util.VulasConfiguration - Configuration [1]: Transient-Config-Layer, [0] entries
+2023-07-20 22:00:39,732 [main] [INFO] shared.util.VulasConfiguration - Configuration [2]: System-Properties, [58] entries
+2023-07-20 22:00:39,733 [main] [INFO] shared.util.VulasConfiguration - Configuration [3]: Maven-Plugin-Config, [21] entries
+2023-07-20 22:00:39,733 [main] [INFO] shared.util.VulasConfiguration - Configuration [4]: Environment-Variables, [42] entries
+2023-07-20 22:00:39,733 [main] [INFO] shared.util.VulasConfiguration - Configuration [5]: /root/.steady.properties, [1] entries
+2023-07-20 22:00:39,733 [main] [INFO] shared.util.VulasConfiguration - Configuration [6]: /root/.m2/repository/org/eclipse/steady/lang/3.2.5/lang-3.2.5.jar>steady-core.properties, [19] entries
+2023-07-20 22:00:39,733 [main] [INFO] shared.util.VulasConfiguration - Configuration [7]: /root/.m2/repository/org/eclipse/steady/lang/3.2.5/lang-3.2.5.jar>steady-tenant.properties, [1] entries
+2023-07-20 22:00:39,733 [main] [INFO] shared.util.VulasConfiguration - Configuration [8]: /root/.m2/repository/org/eclipse/steady/lang/3.2.5/lang-3.2.5.jar>steady-core-sign.properties, [10] entries
+2023-07-20 22:00:39,733 [main] [INFO] shared.util.VulasConfiguration - Configuration [9]: /root/.m2/repository/org/eclipse/steady/lang-java-reach-wala/3.2.5/lang-java-reach-wala-3.2.5.jar>steady-reach-wala.properties, [3] entries
+2023-07-20 22:00:39,733 [main] [INFO] shared.util.VulasConfiguration - Configuration [10]: /root/.m2/repository/org/eclipse/steady/lang-java-reach/3.2.5/lang-java-reach-3.2.5.jar>steady-reach.properties, [15] entries
+2023-07-20 22:00:39,733 [main] [INFO] shared.util.VulasConfiguration - Configuration [11]: /root/.m2/repository/org/eclipse/steady/shared/3.2.5/shared-3.2.5.jar>steady-version.properties, [4] entries
+2023-07-20 22:00:39,733 [main] [INFO] shared.util.VulasConfiguration - Configuration [12]: /root/.m2/repository/org/eclipse/steady/shared/3.2.5/shared-3.2.5.jar>steady-shared.properties, [10] entries
+2023-07-20 22:00:39,733 [main] [INFO] shared.util.VulasConfiguration - Configuration [13]: /root/.m2/repository/org/eclipse/steady/lang-java-reach-soot/3.2.5/lang-java-reach-soot-3.2.5.jar>steady-reach-soot.properties, [10] entries
+2023-07-20 22:00:39,733 [main] [INFO] shared.util.VulasConfiguration - Configuration [14]: /root/.m2/repository/org/eclipse/steady/plugin-maven/3.2.5/plugin-maven-3.2.5.jar>steady-plugin-maven.properties, [3] entries
+2023-07-20 22:00:39,733 [main] [INFO] shared.util.VulasConfiguration - Configuration [15]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5.jar>steady-core-sign.properties, [10] entries
+2023-07-20 22:00:39,733 [main] [INFO] shared.util.VulasConfiguration - Configuration [16]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5.jar>steady-java.properties, [22] entries
+2023-07-20 22:00:39,733 [main] [INFO] shared.util.VulasConfiguration - Configuration with prefix(es) [http, https, vulas]
+2023-07-20 22:00:39,734 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.app.sourceDir=[/home/ubuntu/logback-classic1/target/classes, /home/ubuntu/logback-classic1/src/main/java, /home/ubuntu/logback-classic1/src/main/python]
+2023-07-20 22:00:39,734 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.app.uploadEmpty=false
+2023-07-20 22:00:39,735 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.app.uploadLibrary=false
+2023-07-20 22:00:39,735 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.appContext.artifact=logback-classic
+2023-07-20 22:00:39,735 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.appContext.group=ch.qos.logback
+2023-07-20 22:00:39,735 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.appContext.version=1.1.7-SNAPSHOT
+2023-07-20 22:00:39,735 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.backendConnection=READ_WRITE
+2023-07-20 22:00:39,735 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.clean.goalHistory=false
+2023-07-20 22:00:39,735 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.clean.purgeVersions=false
+2023-07-20 22:00:39,735 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.clean.purgeVersions.keepLast=3
+2023-07-20 22:00:39,736 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classes=[org.apache.maven.surefire, org.junit, org.eclipse.steady, org.jacoco.]
+2023-07-20 22:00:39,736 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classes.jre=[java., sun., com.sun., org.xml., org.ietf., org.jcp., org.omg.]
+2023-07-20 22:00:39,736 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classloader=[sun.reflect.DelegatingClassLoader, javax.management.remote.rmi.NoCallStackClassLoader, org.powermock.core.classloader.MockClassLoader]
+2023-07-20 22:00:39,736 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.jars=[lang-java-.*.jar, surefire-.*.jar, junit-.*.jar, org.jacoco.agent.*.jar]
+2023-07-20 22:00:39,737 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.jars.ignoreScopes=[test, provided]
+2023-07-20 22:00:39,737 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.includeDir=/home/ubuntu/logback-classic1/target/vulas/include
+2023-07-20 22:00:39,737 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.instrumentorsChoosen=org.eclipse.steady.java.monitor.trace.SingleTraceInstrumentor
+2023-07-20 22:00:39,737 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.libDir=/home/ubuntu/logback-classic1/target/vulas/lib
+2023-07-20 22:00:39,737 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.maxStacktraces=10
+2023-07-20 22:00:39,738 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.printErrorStackTrace=true
+2023-07-20 22:00:39,738 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.searchRecursive=false
+2023-07-20 22:00:39,738 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.slice.guardOpen=true
+2023-07-20 22:00:39,738 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.sourceDir=/home/ubuntu/logback-classic1/target
+2023-07-20 22:00:39,738 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.static.inclBackendUrl=true
+2023-07-20 22:00:39,739 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.static.inclSpace=true
+2023-07-20 22:00:39,739 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.targetDir=/home/ubuntu/logback-classic1/target/vulas/target
+2023-07-20 22:00:39,739 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.whitelist.classloader.acceptChilds=true
+2023-07-20 22:00:39,739 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.instr.writeCode=false
+2023-07-20 22:00:39,739 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.jarAnalysis.poolSize=4
+2023-07-20 22:00:39,739 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.blacklist.jars=[lang-java-.*.jar, surefire-.*.jar, junit-.*.jar, org.jacoco.agent.*.jar]
+2023-07-20 22:00:39,740 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.maxItems=-1
+2023-07-20 22:00:39,740 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.batchSize=1000
+2023-07-20 22:00:39,740 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.enabled=false
+2023-07-20 22:00:39,740 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.interval=300000
+2023-07-20 22:00:39,740 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.noThreads=AUTO
+2023-07-20 22:00:39,741 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.repeatHttp.max=50
+2023-07-20 22:00:39,741 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.repeatHttp.waitMilli=60000
+2023-07-20 22:00:39,741 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sequence.defaultGoals=[CLEAN, APP, A2C, REPORT]
+2023-07-20 22:00:39,741 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxDecompiler=false
+2023-07-20 22:00:39,741 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxEditScript=true
+2023-07-20 22:00:39,741 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxEqualIgnoreParentRoot=false
+2023-07-20 22:00:39,741 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxRelaxedByDefault=false
+2023-07-20 22:00:39,742 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.relaxStripFinals=true
+2023-07-20 22:00:39,742 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.saveDecompiledArchive=false
+2023-07-20 22:00:39,742 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.saveEditScriptIntersection=false
+2023-07-20 22:00:39,742 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.saveEditScripts=false
+2023-07-20 22:00:39,742 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.sign.showDecompiledConstruct=false
+2023-07-20 22:00:39,742 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.skipKnownArchive=false
+2023-07-20 22:00:39,742 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.space.token=8A47AF320BB595F19E34924BA7E9B185
+2023-07-20 22:00:39,742 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.tenant.token=603EFBA1EA9B98ADB4B548682597E6D0
+2023-07-20 22:00:39,743 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.upload.deleteAfterSuccess=true
+2023-07-20 22:00:39,743 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.upload.maxSize=-1
+2023-07-20 22:00:39,743 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.uploadDir=/home/ubuntu/logback-classic1/target/vulas/upload
+2023-07-20 22:00:39,743 [main] [INFO] shared.util.VulasConfiguration -     vulas.core.verifyJars=true
+2023-07-20 22:00:39,743 [main] [INFO] shared.util.VulasConfiguration -     vulas.maven.ignorePoms=false
+2023-07-20 22:00:39,744 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.blacklist.classes.custom=[org.apache.maven.surefire, org.junit, org.eclipse.steady]
+2023-07-20 22:00:39,744 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.blacklist.classes.jre=[java., sun, com.sun, org.xml, org.ietf, org.jcp, org.omg, com.ibm.wala]
+2023-07-20 22:00:39,744 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.cli.plugins.dir=plugins
+2023-07-20 22:00:39,744 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.excludeJars=WebServicesAgent.jar
+2023-07-20 22:00:39,744 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.exitOnUnknownEntryPoints=false
+2023-07-20 22:00:39,745 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.fwk=soot
+2023-07-20 22:00:39,745 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.identifyTouchpoints=true
+2023-07-20 22:00:39,745 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.maxPathPerChangeListElement=10
+2023-07-20 22:00:39,745 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.preprocessDependencies=true
+2023-07-20 22:00:39,745 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.searchShortest=true
+2023-07-20 22:00:39,745 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.allowPhantom=true
+2023-07-20 22:00:39,745 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.appMode=false
+2023-07-20 22:00:39,746 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.entrypointGenerator=none
+2023-07-20 22:00:39,746 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.exclusions=java.awt.*;javax.swing.*;sun.awt.*;sun.swing.*;org.netbeans.*;com.sun.*;org.openide.*;com.ibm.crypto.*;com.ibm.security.*;org.apache.xerces.*
+2023-07-20 22:00:39,746 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.nobodyForX=true
+2023-07-20 22:00:39,746 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.spark=true
+2023-07-20 22:00:39,746 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.spark.otf=true
+2023-07-20 22:00:39,746 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.spark.rta=false
+2023-07-20 22:00:39,747 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.spark.vta=false
+2023-07-20 22:00:39,747 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.soot.verbose=false
+2023-07-20 22:00:39,747 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.timeout=60
+2023-07-20 22:00:39,747 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.wala.callgraph.algorithm=0-1-CFA
+2023-07-20 22:00:39,747 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.wala.callgraph.exclusions=java/awt/.*;javax/swing/.*;sun/awt/.*;sun/swing/.*;org/netbeans/.*;com/sun/.*;org/openide/.*;com/ibm/crypto/.*;com/ibm/security/.*;org/apache/xerces/.*
+2023-07-20 22:00:39,747 [main] [INFO] shared.util.VulasConfiguration -     vulas.reach.wala.callgraph.reflection=NO_FLOW_TO_CASTS_NO_METHOD_INVOKE
+2023-07-20 22:00:39,748 [main] [INFO] shared.util.VulasConfiguration -     vulas.report.exceptionExcludeUnassessed=all
+2023-07-20 22:00:39,748 [main] [INFO] shared.util.VulasConfiguration -     vulas.report.exceptionThreshold=dependsOn
+2023-07-20 22:00:39,748 [main] [INFO] shared.util.VulasConfiguration -     vulas.report.exemptScope=[TEST, PROVIDED]
+2023-07-20 22:00:39,748 [main] [INFO] shared.util.VulasConfiguration -     vulas.report.reportDir=/home/ubuntu/logback-classic1/target/vulas/report
+2023-07-20 22:00:39,748 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.backend.serviceUrl=http://localhost:8033/backend/
+2023-07-20 22:00:39,748 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.buildBranch=UNKNOWN
+2023-07-20 22:00:39,748 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.buildNumber=3d261afe9513f7c708324aa0183423ab2e9e4692
+2023-07-20 22:00:39,749 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.buildTimestamp=2022-09-20T08:33:43+00:00
+2023-07-20 22:00:39,749 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.charset=UTF-8
+2023-07-20 22:00:39,749 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.cve.serviceUrl=https://services.nvd.nist.gov/rest/json/cve/1.0/<ID>
+2023-07-20 22:00:39,749 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.env=[PROCESSOR_IDENTIFIER, NUMBER_OF_PROCESSORS, PROCESSOR_LEVEL, PROCESSOR_ARCHITECTURE, PROCESSOR_REVISION, JAVA_HOME, COMPUTERNAME, MAVEN_PROJECTBASEDIR, MAVEN_HOME, MAVEN_CONFIG, MAVEN_OPTS, BUILD_URL, BUILD_TAG, BUILD_TIMESTAMP, BUILD_DISPLAY_NAME, BUILD_ID, BUILD_NUMBER, BUILD_VERSION]
+2023-07-20 22:00:39,749 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.homepage=https://eclipse.github.io/steady
+2023-07-20 22:00:39,750 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.sys=[os., java., runtime., maven., sun.]
+2023-07-20 22:00:39,750 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.tmpDir=/home/ubuntu/logback-classic1/target/vulas/tmp
+2023-07-20 22:00:39,750 [main] [INFO] shared.util.VulasConfiguration -     vulas.shared.version=3.2.5
+[INFO] Top level project: MavenProject: ch.qos.logback:logback-classic:1.1.7-SNAPSHOT @ /home/ubuntu/logback-classic1/pom.xml
+[INFO] Execution root dir: /home/ubuntu/logback-classic1
+2023-07-20 22:00:39,758 [main] [WARN] se.steady.shared.util.FileUtil - Path [/home/ubuntu/logback-classic1/src/main/python] is neither an accessible file nor an accessible directory, hence, will be ignored
+[INFO] Dependency [   1]: Dependency [libid=[org.springframework.boot|spring-boot-starter-data-jpa|2.6.4], parent=null, path=/root/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.6.4/spring-boot-starter-data-jpa-2.6.4.jar, direct=true, scope=COMPILE] created for Maven artifact [g=org.springframework.boot, a=spring-boot-starter-data-jpa, base version=2.6.4, version=2.6.4, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4
+[INFO] Dependency [   2]: Dependency [libid=[org.springframework.boot|spring-boot-starter-aop|2.6.4], parent=[org.springframework.boot|spring-boot-starter-data-jpa|2.6.4], path=/root/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.6.4/spring-boot-starter-aop-2.6.4.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.springframework.boot, a=spring-boot-starter-aop, base version=2.6.4, version=2.6.4, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.springframework.boot:spring-boot-starter-aop:jar:2.6.4
+[INFO] Dependency [   3]: Dependency [libid=[org.springframework|spring-aop|5.3.16], parent=[org.springframework.boot|spring-boot-starter-aop|2.6.4], path=/root/.m2/repository/org/springframework/spring-aop/5.3.16/spring-aop-5.3.16.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.springframework, a=spring-aop, base version=5.3.16, version=5.3.16, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.springframework.boot:spring-boot-starter-aop:jar:2.6.4 => org.springframework:spring-aop:jar:5.3.16
+[INFO] Dependency [   4]: Dependency [libid=[org.aspectj|aspectjweaver|1.9.7], parent=[org.springframework.boot|spring-boot-starter-aop|2.6.4], path=/root/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.aspectj, a=aspectjweaver, base version=1.9.7, version=1.9.7, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.springframework.boot:spring-boot-starter-aop:jar:2.6.4 => org.aspectj:aspectjweaver:jar:1.9.7
+[INFO] Dependency [   5]: Dependency [libid=[org.springframework.boot|spring-boot-starter-jdbc|2.6.4], parent=[org.springframework.boot|spring-boot-starter-data-jpa|2.6.4], path=/root/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.6.4/spring-boot-starter-jdbc-2.6.4.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.springframework.boot, a=spring-boot-starter-jdbc, base version=2.6.4, version=2.6.4, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.springframework.boot:spring-boot-starter-jdbc:jar:2.6.4
+[INFO] Dependency [   6]: Dependency [libid=[com.zaxxer|HikariCP|4.0.3], parent=[org.springframework.boot|spring-boot-starter-jdbc|2.6.4], path=/root/.m2/repository/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar, direct=false, scope=COMPILE] created for Maven artifact [g=com.zaxxer, a=HikariCP, base version=4.0.3, version=4.0.3, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.springframework.boot:spring-boot-starter-jdbc:jar:2.6.4 => com.zaxxer:HikariCP:jar:4.0.3
+[INFO] Dependency [   7]: Dependency [libid=[org.springframework|spring-jdbc|5.3.16], parent=[org.springframework.boot|spring-boot-starter-jdbc|2.6.4], path=/root/.m2/repository/org/springframework/spring-jdbc/5.3.16/spring-jdbc-5.3.16.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.springframework, a=spring-jdbc, base version=5.3.16, version=5.3.16, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.springframework.boot:spring-boot-starter-jdbc:jar:2.6.4 => org.springframework:spring-jdbc:jar:5.3.16
+[INFO] Dependency [   8]: Dependency [libid=[jakarta.transaction|jakarta.transaction-api|1.3.3], parent=[org.springframework.boot|spring-boot-starter-data-jpa|2.6.4], path=/root/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar, direct=false, scope=COMPILE] created for Maven artifact [g=jakarta.transaction, a=jakarta.transaction-api, base version=1.3.3, version=1.3.3, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => jakarta.transaction:jakarta.transaction-api:jar:1.3.3
+[INFO] Dependency [   9]: Dependency [libid=[jakarta.persistence|jakarta.persistence-api|2.2.3], parent=[org.springframework.boot|spring-boot-starter-data-jpa|2.6.4], path=/root/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar, direct=false, scope=COMPILE] created for Maven artifact [g=jakarta.persistence, a=jakarta.persistence-api, base version=2.2.3, version=2.2.3, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => jakarta.persistence:jakarta.persistence-api:jar:2.2.3
+[INFO] Dependency [  10]: Dependency [libid=[org.hibernate|hibernate-core|5.6.5.Final], parent=[org.springframework.boot|spring-boot-starter-data-jpa|2.6.4], path=/root/.m2/repository/org/hibernate/hibernate-core/5.6.5.Final/hibernate-core-5.6.5.Final.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.hibernate, a=hibernate-core, base version=5.6.5.Final, version=5.6.5.Final, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.hibernate:hibernate-core:jar:5.6.5.Final
+[INFO] Dependency [  11]: Dependency [libid=[org.jboss.logging|jboss-logging|3.4.3.Final], parent=[org.hibernate|hibernate-core|5.6.5.Final], path=/root/.m2/repository/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.jboss.logging, a=jboss-logging, base version=3.4.3.Final, version=3.4.3.Final, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.hibernate:hibernate-core:jar:5.6.5.Final => org.jboss.logging:jboss-logging:jar:3.4.3.Final
+[INFO] Dependency [  12]: Dependency [libid=[net.bytebuddy|byte-buddy|1.11.22], parent=[org.hibernate|hibernate-core|5.6.5.Final], path=/root/.m2/repository/net/bytebuddy/byte-buddy/1.11.22/byte-buddy-1.11.22.jar, direct=false, scope=COMPILE] created for Maven artifact [g=net.bytebuddy, a=byte-buddy, base version=1.11.22, version=1.11.22, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.hibernate:hibernate-core:jar:5.6.5.Final => net.bytebuddy:byte-buddy:jar:1.11.22
+[INFO] Dependency [  13]: Dependency [libid=[antlr|antlr|2.7.7], parent=[org.hibernate|hibernate-core|5.6.5.Final], path=/root/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar, direct=false, scope=COMPILE] created for Maven artifact [g=antlr, a=antlr, base version=2.7.7, version=2.7.7, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.hibernate:hibernate-core:jar:5.6.5.Final => antlr:antlr:jar:2.7.7
+[INFO] Dependency [  14]: Dependency [libid=[org.jboss|jandex|2.4.2.Final], parent=[org.hibernate|hibernate-core|5.6.5.Final], path=/root/.m2/repository/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.jboss, a=jandex, base version=2.4.2.Final, version=2.4.2.Final, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.hibernate:hibernate-core:jar:5.6.5.Final => org.jboss:jandex:jar:2.4.2.Final
+[INFO] Dependency [  15]: Dependency [libid=[com.fasterxml|classmate|1.5.1], parent=[org.hibernate|hibernate-core|5.6.5.Final], path=/root/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar, direct=false, scope=COMPILE] created for Maven artifact [g=com.fasterxml, a=classmate, base version=1.5.1, version=1.5.1, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.hibernate:hibernate-core:jar:5.6.5.Final => com.fasterxml:classmate:jar:1.5.1
+[INFO] Dependency [  16]: Dependency [libid=[org.hibernate.common|hibernate-commons-annotations|5.1.2.Final], parent=[org.hibernate|hibernate-core|5.6.5.Final], path=/root/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.hibernate.common, a=hibernate-commons-annotations, base version=5.1.2.Final, version=5.1.2.Final, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.hibernate:hibernate-core:jar:5.6.5.Final => org.hibernate.common:hibernate-commons-annotations:jar:5.1.2.Final
+[INFO] Dependency [  17]: Dependency [libid=[org.glassfish.jaxb|jaxb-runtime|2.3.6], parent=[org.hibernate|hibernate-core|5.6.5.Final], path=/root/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.6/jaxb-runtime-2.3.6.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.glassfish.jaxb, a=jaxb-runtime, base version=2.3.6, version=2.3.6, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.hibernate:hibernate-core:jar:5.6.5.Final => org.glassfish.jaxb:jaxb-runtime:jar:2.3.6
+[INFO] Dependency [  18]: Dependency [libid=[org.glassfish.jaxb|txw2|2.3.6], parent=[org.glassfish.jaxb|jaxb-runtime|2.3.6], path=/root/.m2/repository/org/glassfish/jaxb/txw2/2.3.6/txw2-2.3.6.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.glassfish.jaxb, a=txw2, base version=2.3.6, version=2.3.6, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.hibernate:hibernate-core:jar:5.6.5.Final => org.glassfish.jaxb:jaxb-runtime:jar:2.3.6 => org.glassfish.jaxb:txw2:jar:2.3.6
+[INFO] Dependency [  19]: Dependency [libid=[com.sun.istack|istack-commons-runtime|3.0.12], parent=[org.glassfish.jaxb|jaxb-runtime|2.3.6], path=/root/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar, direct=false, scope=COMPILE] created for Maven artifact [g=com.sun.istack, a=istack-commons-runtime, base version=3.0.12, version=3.0.12, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.hibernate:hibernate-core:jar:5.6.5.Final => org.glassfish.jaxb:jaxb-runtime:jar:2.3.6 => com.sun.istack:istack-commons-runtime:jar:3.0.12
+[INFO] Dependency [  20]: Dependency [libid=[com.sun.activation|jakarta.activation|1.2.2], parent=[org.glassfish.jaxb|jaxb-runtime|2.3.6], path=/root/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar, direct=false, scope=RUNTIME] created for Maven artifact [g=com.sun.activation, a=jakarta.activation, base version=1.2.2, version=1.2.2, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.hibernate:hibernate-core:jar:5.6.5.Final => org.glassfish.jaxb:jaxb-runtime:jar:2.3.6 => com.sun.activation:jakarta.activation:jar:1.2.2
+[INFO] Dependency [  21]: Dependency [libid=[org.springframework.data|spring-data-jpa|2.6.2], parent=[org.springframework.boot|spring-boot-starter-data-jpa|2.6.4], path=/root/.m2/repository/org/springframework/data/spring-data-jpa/2.6.2/spring-data-jpa-2.6.2.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.springframework.data, a=spring-data-jpa, base version=2.6.2, version=2.6.2, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.springframework.data:spring-data-jpa:jar:2.6.2
+[INFO] Dependency [  22]: Dependency [libid=[org.springframework.data|spring-data-commons|2.6.2], parent=[org.springframework.data|spring-data-jpa|2.6.2], path=/root/.m2/repository/org/springframework/data/spring-data-commons/2.6.2/spring-data-commons-2.6.2.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.springframework.data, a=spring-data-commons, base version=2.6.2, version=2.6.2, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.springframework.data:spring-data-jpa:jar:2.6.2 => org.springframework.data:spring-data-commons:jar:2.6.2
+[INFO] Dependency [  23]: Dependency [libid=[org.springframework|spring-orm|5.3.16], parent=[org.springframework.data|spring-data-jpa|2.6.2], path=/root/.m2/repository/org/springframework/spring-orm/5.3.16/spring-orm-5.3.16.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.springframework, a=spring-orm, base version=5.3.16, version=5.3.16, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.springframework.data:spring-data-jpa:jar:2.6.2 => org.springframework:spring-orm:jar:5.3.16
+[INFO] Dependency [  24]: Dependency [libid=[org.springframework|spring-context|5.3.16], parent=[org.springframework.data|spring-data-jpa|2.6.2], path=/root/.m2/repository/org/springframework/spring-context/5.3.16/spring-context-5.3.16.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.springframework, a=spring-context, base version=5.3.16, version=5.3.16, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.springframework.data:spring-data-jpa:jar:2.6.2 => org.springframework:spring-context:jar:5.3.16
+[INFO] Dependency [  25]: Dependency [libid=[org.springframework|spring-expression|5.3.16], parent=[org.springframework|spring-context|5.3.16], path=/root/.m2/repository/org/springframework/spring-expression/5.3.16/spring-expression-5.3.16.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.springframework, a=spring-expression, base version=5.3.16, version=5.3.16, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.springframework.data:spring-data-jpa:jar:2.6.2 => org.springframework:spring-context:jar:5.3.16 => org.springframework:spring-expression:jar:5.3.16
+[INFO] Dependency [  26]: Dependency [libid=[org.springframework|spring-tx|5.3.16], parent=[org.springframework.data|spring-data-jpa|2.6.2], path=/root/.m2/repository/org/springframework/spring-tx/5.3.16/spring-tx-5.3.16.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.springframework, a=spring-tx, base version=5.3.16, version=5.3.16, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.springframework.data:spring-data-jpa:jar:2.6.2 => org.springframework:spring-tx:jar:5.3.16
+[INFO] Dependency [  27]: Dependency [libid=[org.springframework|spring-beans|5.3.16], parent=[org.springframework.data|spring-data-jpa|2.6.2], path=/root/.m2/repository/org/springframework/spring-beans/5.3.16/spring-beans-5.3.16.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.springframework, a=spring-beans, base version=5.3.16, version=5.3.16, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.springframework.data:spring-data-jpa:jar:2.6.2 => org.springframework:spring-beans:jar:5.3.16
+[INFO] Dependency [  28]: Dependency [libid=[org.slf4j|slf4j-api|1.7.36], parent=[org.springframework.data|spring-data-jpa|2.6.2], path=/root/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.slf4j, a=slf4j-api, base version=1.7.36, version=1.7.36, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.springframework.data:spring-data-jpa:jar:2.6.2 => org.slf4j:slf4j-api:jar:1.7.36
+[INFO] Dependency [  29]: Dependency [libid=[org.springframework|spring-aspects|5.3.16], parent=[org.springframework.boot|spring-boot-starter-data-jpa|2.6.4], path=/root/.m2/repository/org/springframework/spring-aspects/5.3.16/spring-aspects-5.3.16.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.springframework, a=spring-aspects, base version=5.3.16, version=5.3.16, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-data-jpa:jar:2.6.4 => org.springframework:spring-aspects:jar:5.3.16
+[INFO] Dependency [  30]: Dependency [libid=[org.hsqldb|hsqldb|2.5.2], parent=null, path=/root/.m2/repository/org/hsqldb/hsqldb/2.5.2/hsqldb-2.5.2.jar, direct=true, scope=RUNTIME] created for Maven artifact [g=org.hsqldb, a=hsqldb, base version=2.5.2, version=2.5.2, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.hsqldb:hsqldb:jar:2.5.2
+[INFO] Dependency [  31]: Dependency [libid=[com.fasterxml.jackson.core|jackson-annotations|2.13.1], parent=null, path=/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.1/jackson-annotations-2.13.1.jar, direct=true, scope=COMPILE] created for Maven artifact [g=com.fasterxml.jackson.core, a=jackson-annotations, base version=2.13.1, version=2.13.1, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => com.fasterxml.jackson.core:jackson-annotations:jar:2.13.1
+[INFO] Dependency [  32]: Dependency [libid=[com.fasterxml.jackson.core|jackson-databind|2.13.1], parent=null, path=/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.1/jackson-databind-2.13.1.jar, direct=true, scope=COMPILE] created for Maven artifact [g=com.fasterxml.jackson.core, a=jackson-databind, base version=2.13.1, version=2.13.1, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => com.fasterxml.jackson.core:jackson-databind:jar:2.13.1
+[INFO] Dependency [  33]: Dependency [libid=[com.fasterxml.jackson.core|jackson-core|2.13.1], parent=[com.fasterxml.jackson.core|jackson-databind|2.13.1], path=/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.1/jackson-core-2.13.1.jar, direct=false, scope=COMPILE] created for Maven artifact [g=com.fasterxml.jackson.core, a=jackson-core, base version=2.13.1, version=2.13.1, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => com.fasterxml.jackson.core:jackson-databind:jar:2.13.1 => com.fasterxml.jackson.core:jackson-core:jar:2.13.1
+[INFO] Dependency [  34]: Dependency [libid=[org.springframework.boot|spring-boot-starter|2.6.4], parent=null, path=/root/.m2/repository/org/springframework/boot/spring-boot-starter/2.6.4/spring-boot-starter-2.6.4.jar, direct=true, scope=COMPILE] created for Maven artifact [g=org.springframework.boot, a=spring-boot-starter, base version=2.6.4, version=2.6.4, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-test:jar:2.6.4 => org.springframework.boot:spring-boot-starter:jar:2.6.4
+[INFO] Dependency [  35]: Dependency [libid=[org.springframework.boot|spring-boot|2.6.4], parent=[org.springframework.boot|spring-boot-starter|2.6.4], path=/root/.m2/repository/org/springframework/boot/spring-boot/2.6.4/spring-boot-2.6.4.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.springframework.boot, a=spring-boot, base version=2.6.4, version=2.6.4, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-test:jar:2.6.4 => org.springframework.boot:spring-boot-starter:jar:2.6.4 => org.springframework.boot:spring-boot:jar:2.6.4
+[INFO] Dependency [  36]: Dependency [libid=[org.springframework.boot|spring-boot-autoconfigure|2.6.4], parent=[org.springframework.boot|spring-boot-starter|2.6.4], path=/root/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.6.4/spring-boot-autoconfigure-2.6.4.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.springframework.boot, a=spring-boot-autoconfigure, base version=2.6.4, version=2.6.4, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-test:jar:2.6.4 => org.springframework.boot:spring-boot-starter:jar:2.6.4 => org.springframework.boot:spring-boot-autoconfigure:jar:2.6.4
+[INFO] Dependency [  37]: Dependency [libid=[org.springframework.boot|spring-boot-starter-logging|2.6.4], parent=[org.springframework.boot|spring-boot-starter|2.6.4], path=/root/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.6.4/spring-boot-starter-logging-2.6.4.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.springframework.boot, a=spring-boot-starter-logging, base version=2.6.4, version=2.6.4, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-test:jar:2.6.4 => org.springframework.boot:spring-boot-starter:jar:2.6.4 => org.springframework.boot:spring-boot-starter-logging:jar:2.6.4
+[INFO] Dependency [  38]: Dependency [libid=[ch.qos.logback|logback-classic|1.2.10], parent=[org.springframework.boot|spring-boot-starter-logging|2.6.4], path=/root/.m2/repository/ch/qos/logback/logback-classic/1.2.10/logback-classic-1.2.10.jar, direct=false, scope=COMPILE] created for Maven artifact [g=ch.qos.logback, a=logback-classic, base version=1.2.10, version=1.2.10, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-test:jar:2.6.4 => org.springframework.boot:spring-boot-starter:jar:2.6.4 => org.springframework.boot:spring-boot-starter-logging:jar:2.6.4 => ch.qos.logback:logback-classic:jar:1.2.10
+[INFO] Dependency [  39]: Dependency [libid=[ch.qos.logback|logback-core|1.2.10], parent=[ch.qos.logback|logback-classic|1.2.10], path=/root/.m2/repository/ch/qos/logback/logback-core/1.2.10/logback-core-1.2.10.jar, direct=false, scope=COMPILE] created for Maven artifact [g=ch.qos.logback, a=logback-core, base version=1.2.10, version=1.2.10, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-test:jar:2.6.4 => org.springframework.boot:spring-boot-starter:jar:2.6.4 => org.springframework.boot:spring-boot-starter-logging:jar:2.6.4 => ch.qos.logback:logback-classic:jar:1.2.10 => ch.qos.logback:logback-core:jar:1.2.10
+[INFO] Dependency [  40]: Dependency [libid=[org.apache.logging.log4j|log4j-to-slf4j|2.17.1], parent=[org.springframework.boot|spring-boot-starter-logging|2.6.4], path=/root/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.1/log4j-to-slf4j-2.17.1.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.apache.logging.log4j, a=log4j-to-slf4j, base version=2.17.1, version=2.17.1, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-test:jar:2.6.4 => org.springframework.boot:spring-boot-starter:jar:2.6.4 => org.springframework.boot:spring-boot-starter-logging:jar:2.6.4 => org.apache.logging.log4j:log4j-to-slf4j:jar:2.17.1
+[INFO] Dependency [  41]: Dependency [libid=[org.apache.logging.log4j|log4j-api|2.17.1], parent=[org.apache.logging.log4j|log4j-to-slf4j|2.17.1], path=/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.apache.logging.log4j, a=log4j-api, base version=2.17.1, version=2.17.1, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-test:jar:2.6.4 => org.springframework.boot:spring-boot-starter:jar:2.6.4 => org.springframework.boot:spring-boot-starter-logging:jar:2.6.4 => org.apache.logging.log4j:log4j-to-slf4j:jar:2.17.1 => org.apache.logging.log4j:log4j-api:jar:2.17.1
+[INFO] Dependency [  42]: Dependency [libid=[org.slf4j|jul-to-slf4j|1.7.36], parent=[org.springframework.boot|spring-boot-starter-logging|2.6.4], path=/root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.slf4j, a=jul-to-slf4j, base version=1.7.36, version=1.7.36, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-test:jar:2.6.4 => org.springframework.boot:spring-boot-starter:jar:2.6.4 => org.springframework.boot:spring-boot-starter-logging:jar:2.6.4 => org.slf4j:jul-to-slf4j:jar:1.7.36
+[INFO] Dependency [  43]: Dependency [libid=[jakarta.annotation|jakarta.annotation-api|1.3.5], parent=[org.springframework.boot|spring-boot-starter|2.6.4], path=/root/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar, direct=false, scope=COMPILE] created for Maven artifact [g=jakarta.annotation, a=jakarta.annotation-api, base version=1.3.5, version=1.3.5, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-test:jar:2.6.4 => org.springframework.boot:spring-boot-starter:jar:2.6.4 => jakarta.annotation:jakarta.annotation-api:jar:1.3.5
+[INFO] Dependency [  44]: Dependency [libid=[org.yaml|snakeyaml|1.29], parent=[org.springframework.boot|spring-boot-starter|2.6.4], path=/root/.m2/repository/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.yaml, a=snakeyaml, base version=1.29, version=1.29, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-test:jar:2.6.4 => org.springframework.boot:spring-boot-starter:jar:2.6.4 => org.yaml:snakeyaml:jar:1.29
+[INFO] Dependency [  45]: Dependency [libid=[jakarta.xml.bind|jakarta.xml.bind-api|2.3.3], parent=null, path=/root/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar, direct=true, scope=COMPILE] created for Maven artifact [g=jakarta.xml.bind, a=jakarta.xml.bind-api, base version=2.3.3, version=2.3.3, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-test:jar:2.6.4 => jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3
+[INFO] Dependency [  46]: Dependency [libid=[jakarta.activation|jakarta.activation-api|1.2.2], parent=[jakarta.xml.bind|jakarta.xml.bind-api|2.3.3], path=/root/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar, direct=false, scope=COMPILE] created for Maven artifact [g=jakarta.activation, a=jakarta.activation-api, base version=1.2.2, version=1.2.2, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-test:jar:2.6.4 => jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3 => jakarta.activation:jakarta.activation-api:jar:1.2.2
+[INFO] Dependency [  47]: Dependency [libid=[org.springframework|spring-core|5.3.16], parent=null, path=/root/.m2/repository/org/springframework/spring-core/5.3.16/spring-core-5.3.16.jar, direct=true, scope=COMPILE] created for Maven artifact [g=org.springframework, a=spring-core, base version=5.3.16, version=5.3.16, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-test:jar:2.6.4 => org.springframework:spring-core:jar:5.3.16
+[INFO] Dependency [  48]: Dependency [libid=[org.springframework|spring-jcl|5.3.16], parent=[org.springframework|spring-core|5.3.16], path=/root/.m2/repository/org/springframework/spring-jcl/5.3.16/spring-jcl-5.3.16.jar, direct=false, scope=COMPILE] created for Maven artifact [g=org.springframework, a=spring-jcl, base version=5.3.16, version=5.3.16, classifier=null]
+[INFO]     ch.qos.logback:logback-classic:jar:1.1.7-SNAPSHOT => org.springframework.boot:spring-boot-starter-test:jar:2.6.4 => org.springframework:spring-core:jar:5.3.16 => org.springframework:spring-jcl:jar:5.3.16
+2023-07-20 22:00:39,861 [main] [INFO] se.steady.shared.util.FileUtil - Copying [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar] to [/home/ubuntu/logback-classic1/target/vulas/include/lang-java-3.2.5-jar-with-dependencies.jar]
+2023-07-20 22:00:39,874 [main] [INFO] se.steady.shared.util.FileUtil - Copying [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar] to [/home/ubuntu/logback-classic1/target/vulas/lib/lang-java-3.2.5-jar-with-dependencies.jar]
+[INFO] Copied [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar] to [/home/ubuntu/logback-classic1/target/vulas/include/lang-java-3.2.5-jar-with-dependencies.jar] and [/home/ubuntu/logback-classic1/target/vulas/lib/lang-java-3.2.5-jar-with-dependencies.jar]
+2023-07-20 22:00:39,888 [main] [INFO] e.steady.shared.util.StopWatch - [094551] [00.000 ms] Started: Goal [id=MAVEN-INSTR-1689861639757-41736754, type=INSTR, ctx=[tenant=603EFBA1EA9B98ADB4B548682597E6D0, space=8A47AF320BB595F19E34924BA7E9B185, app=[ch.qos.logback:logback-classic:1.1.7-SNAPSHOT]]]
+2023-07-20 22:00:39,892 [main] [INFO] teady.backend.BackendConnector - Deleting cache: [0] bug change lists, [0] app existance
+2023-07-20 22:00:39,893 [main] [WARN] se.steady.shared.util.FileUtil - Path [/home/ubuntu/logback-classic1/src/main/python] is neither an accessible file nor an accessible directory, hence, will be ignored
+2023-07-20 22:00:39,904 [main] [INFO] kend.requests.BasicHttpRequest - HTTP OPTIONS [uri=http://localhost:8033/backend/spaces/8A47AF320BB595F19E34924BA7E9B185, tenant=603EFBA1EA9B98ADB4B548682597E6D0, space=8A47AF320BB595F19E34924BA7E9B185]
+2023-07-20 22:00:40,163 [main] [INFO] kend.requests.BasicHttpRequest - HTTP OPTIONS completed with response code [200] in [00.258 ms] (proxy=false)
+2023-07-20 22:00:40,164 [main] [INFO] ipse.steady.goals.AbstractGoal - Uploading goal execution info ...
+2023-07-20 22:00:40,164 [main] [INFO] kend.requests.BasicHttpRequest - HTTP OPTIONS [uri=http://localhost:8033/backend/apps/ch.qos.logback/logback-classic/1.1.7-SNAPSHOT, tenant=603EFBA1EA9B98ADB4B548682597E6D0, space=8A47AF320BB595F19E34924BA7E9B185]
+2023-07-20 22:00:40,169 [main] [INFO] kend.requests.BasicHttpRequest - HTTP OPTIONS completed with response code [200] in [00.004 ms] (proxy=false)
+2023-07-20 22:00:40,223 [main] [INFO] kend.requests.BasicHttpRequest - HTTP OPTIONS [uri=http://localhost:8033/backend/apps/ch.qos.logback/logback-classic/1.1.7-SNAPSHOT/goals/MAVEN-INSTR-1689861639757-41736754, tenant=603EFBA1EA9B98ADB4B548682597E6D0, space=8A47AF320BB595F19E34924BA7E9B185]
+2023-07-20 22:00:40,229 [main] [INFO] kend.requests.BasicHttpRequest - HTTP OPTIONS completed with response code [404] in [00.005 ms] (proxy=false)
+2023-07-20 22:00:40,232 [main] [INFO] kend.requests.BasicHttpRequest - HTTP POST [uri=http://localhost:8033/backend/apps/ch.qos.logback/logback-classic/1.1.7-SNAPSHOT/goals?skipResponseBody=true, size=14.15 KB, tenant=603EFBA1EA9B98ADB4B548682597E6D0, space=8A47AF320BB595F19E34924BA7E9B185]
+2023-07-20 22:00:40,297 [main] [INFO] kend.requests.BasicHttpRequest - HTTP POST completed with response code [201] in [00.065 ms] (proxy=false)
+2023-07-20 22:00:40,297 [main] [INFO] ipse.steady.goals.AbstractGoal - Uploaded goal execution info
+2023-07-20 22:00:40,298 [main] [INFO] .steady.shared.util.ThreadUtil - Auto-threading enabled: Number of threads is [2 x 4 cores]
+2023-07-20 22:00:40,298 [main] [INFO] dy.java.ArchiveAnalysisManager - Include dir set to [/home/ubuntu/logback-classic1/target/vulas/include]
+2023-07-20 22:00:40,298 [main] [INFO] dy.java.ArchiveAnalysisManager - Lib dir set to [/home/ubuntu/logback-classic1/target/vulas/lib]
+2023-07-20 22:00:40,299 [main] [INFO] dy.java.ArchiveAnalysisManager - Work dir set to [/home/ubuntu/logback-classic1/target/vulas/target]
+2023-07-20 22:00:40,300 [main] [INFO] shared.util.AbstractFileSearch - Found [0] files in absolute path [/home/ubuntu/logback-classic1/target]
+2023-07-20 22:00:40,300 [main] [INFO] shared.util.AbstractFileSearch - Found a total of [0] files in [1] paths
+2023-07-20 22:00:40,318 [main] [INFO] shared.util.AbstractFileSearch - Found [1] files in absolute path [/home/ubuntu/logback-classic1/target/vulas/lib]
+2023-07-20 22:00:40,336 [main] [INFO] e.steady.shared.util.StopWatch - [487388] [00.000 ms] Started: Analysis of [0] Java archives
+2023-07-20 22:00:40,336 [main] [INFO] e.steady.shared.util.StopWatch - [487388] [00.000 ms] Completed: Analysis of [0] Java archives
+2023-07-20 22:00:40,336 [main] [INFO] e.steady.shared.util.StopWatch - [094551] [00.448 ms] Progress after [00.038 ms]: Completed execution
+2023-07-20 22:00:40,336 [main] [INFO] e.steady.shared.util.StopWatch - [094551] [00.448 ms] Completed: Goal [id=MAVEN-INSTR-1689861639757-41736754, type=INSTR, ctx=[tenant=603EFBA1EA9B98ADB4B548682597E6D0, space=8A47AF320BB595F19E34924BA7E9B185, app=[ch.qos.logback:logback-classic:1.1.7-SNAPSHOT]]]
+2023-07-20 22:00:40,336 [main] [INFO] ipse.steady.goals.AbstractGoal - Uploading goal execution info ...
+2023-07-20 22:00:40,354 [main] [INFO] kend.requests.BasicHttpRequest - HTTP OPTIONS [uri=http://localhost:8033/backend/apps/ch.qos.logback/logback-classic/1.1.7-SNAPSHOT/goals/MAVEN-INSTR-1689861639757-41736754, tenant=603EFBA1EA9B98ADB4B548682597E6D0, space=8A47AF320BB595F19E34924BA7E9B185]
+2023-07-20 22:00:40,360 [main] [INFO] kend.requests.BasicHttpRequest - HTTP OPTIONS completed with response code [200] in [00.005 ms] (proxy=false)
+2023-07-20 22:00:40,361 [main] [INFO] kend.requests.BasicHttpRequest - HTTP PUT [uri=http://localhost:8033/backend/apps/ch.qos.logback/logback-classic/1.1.7-SNAPSHOT/goals/MAVEN-INSTR-1689861639757-41736754?skipResponseBody=true, size=14.15 KB, tenant=603EFBA1EA9B98ADB4B548682597E6D0, space=8A47AF320BB595F19E34924BA7E9B185]
+2023-07-20 22:00:40,420 [main] [INFO] kend.requests.BasicHttpRequest - HTTP PUT completed with response code [200] in [00.058 ms] (proxy=false)
+2023-07-20 22:00:40,420 [main] [INFO] ipse.steady.goals.AbstractGoal - Uploaded goal execution info
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.348 s
+[INFO] Finished at: 2023-07-20T22:00:40+08:00
+[INFO] ------------------------------------------------------------------------

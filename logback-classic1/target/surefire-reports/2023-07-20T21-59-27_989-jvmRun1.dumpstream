@@ -1,0 +1,449 @@
+# Created at 2023-07-20T21:59:32.204
+ForkStarter IOException: 074 [main] [[32mINFO [m] shared.util.AbstractFileSearch - Found [0] files in relative path [.], i.e., absolute path [/home/ubuntu/nzp/logback-classic1/.]
+089 [main] [[32mINFO [m] shared.util.AbstractFileSearch - Found [0] files in relative path [.], i.e., absolute path [/home/ubuntu/nzp/logback-classic1/.]
+089 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [Transient-Config-Layer]
+100 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [SystemConfiguration] from source [System-Properties]
+104 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [Environment-Variables]
+116 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [PropertiesConfiguration] from source [/root/.steady.properties]
+157 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-core-sign.properties]
+158 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-core.properties]
+158 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-version.properties]
+158 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-java.properties]
+159 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-shared.properties]
+159 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-tenant.properties]
+159 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [1]: Transient-Config-Layer, [0] entries
+160 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [2]: System-Properties, [115] entries
+160 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [3]: Environment-Variables, [42] entries
+160 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [4]: /root/.steady.properties, [1] entries
+160 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [5]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-core-sign.properties, [10] entries
+160 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [6]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-core.properties, [19] entries
+160 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [7]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-version.properties, [4] entries
+160 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [8]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-java.properties, [22] entries
+160 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [9]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-shared.properties, [10] entries
+160 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [10]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-tenant.properties, [1] entries
+161 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration with prefix(es) [http, https, vulas]
+171 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.app.sourceDir=[/home/ubuntu/nzp/logback-classic1/target/classes, /home/ubuntu/nzp/logback-classic1/src/main/java, /home/ubuntu/nzp/logback-classic1/src/main/python]
+171 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.app.uploadEmpty=false
+172 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.app.uploadLibrary=false
+173 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.appContext.artifact=logback-classic
+173 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.appContext.group=ch.qos.logback
+174 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.appContext.version=1.1.7-SNAPSHOT
+175 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.backendConnection=READ_ONLY
+175 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.clean.goalHistory=false
+176 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.clean.purgeVersions=false
+177 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.clean.purgeVersions.keepLast=3
+177 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classes=[org.apache.maven.surefire, org.junit, org.eclipse.steady, org.jacoco.]
+178 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classes.jre=[java., sun., com.sun., org.xml., org.ietf., org.jcp., org.omg.]
+180 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classloader=[sun.reflect.DelegatingClassLoader, javax.management.remote.rmi.NoCallStackClassLoader, org.powermock.core.classloader.MockClassLoader]
+180 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.jars=[lang-java-.*.jar, surefire-.*.jar, junit-.*.jar, org.jacoco.agent.*.jar]
+181 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.jars.ignoreScopes=[test, provided]
+182 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.includeDir=/home/ubuntu/nzp/logback-classic1/target/vulas/include
+183 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.instrumentorsChoosen=org.eclipse.steady.java.monitor.trace.SingleTraceInstrumentor
+183 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.libDir=/home/ubuntu/nzp/logback-classic1/target/vulas/lib
+184 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.maxStacktraces=10
+184 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.printErrorStackTrace=true
+185 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.searchRecursive=false
+186 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.slice.guardOpen=true
+187 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.sourceDir=/home/ubuntu/nzp/logback-classic1/target
+188 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.static.inclBackendUrl=true
+188 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.static.inclSpace=true
+189 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.targetDir=/home/ubuntu/nzp/logback-classic1/target/vulas/target
+190 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.whitelist.classloader.acceptChilds=true
+190 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.writeCode=false
+191 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.jarAnalysis.poolSize=4
+192 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.blacklist.jars=[lang-java-.*.jar, surefire-.*.jar, junit-.*.jar, org.jacoco.agent.*.jar]
+192 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.maxItems=-1
+193 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.batchSize=1000
+193 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.enabled=false
+194 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.interval=300000
+196 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.noThreads=AUTO
+198 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.repeatHttp.max=50
+198 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.repeatHttp.waitMilli=60000
+198 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sequence.defaultGoals=[CLEAN, APP, A2C, REPORT]
+199 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxDecompiler=false
+199 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxEditScript=true
+200 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxEqualIgnoreParentRoot=false
+201 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxRelaxedByDefault=false
+202 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxStripFinals=true
+202 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.saveDecompiledArchive=false
+203 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.saveEditScriptIntersection=false
+203 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.saveEditScripts=false
+204 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.showDecompiledConstruct=false
+204 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.skipKnownArchive=false
+207 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.space.token=8A47AF320BB595F19E34924BA7E9B185
+208 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.tenant.token=603EFBA1EA9B98ADB4B548682597E6D0
+208 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.upload.deleteAfterSuccess=true
+208 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.upload.maxSize=-1
+209 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.uploadDir=/home/ubuntu/nzp/logback-classic1/target/vulas/upload
+209 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.verifyJars=true
+210 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.report.exceptionExcludeUnassessed=all
+210 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.report.exceptionThreshold=dependsOn
+211 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.report.exemptScope=[TEST, PROVIDED]
+212 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.backend.serviceUrl=http://localhost:8033/backend/
+212 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.buildBranch=UNKNOWN
+213 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.buildNumber=3d261afe9513f7c708324aa0183423ab2e9e4692
+213 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.buildTimestamp=2022-09-20T08:33:43+00:00
+232 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.charset=UTF-8
+233 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.cve.serviceUrl=https://services.nvd.nist.gov/rest/json/cve/1.0/<ID>
+234 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.env=[PROCESSOR_IDENTIFIER, NUMBER_OF_PROCESSORS, PROCESSOR_LEVEL, PROCESSOR_ARCHITECTURE, PROCESSOR_REVISION, JAVA_HOME, COMPUTERNAME, MAVEN_PROJECTBASEDIR, MAVEN_HOME, MAVEN_CONFIG, MAVEN_OPTS, BUILD_URL, BUILD_TAG, BUILD_TIMESTAMP, BUILD_DISPLAY_NAME, BUILD_ID, BUILD_NUMBER, BUILD_VERSION]
+234 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.homepage=https://eclipse.github.io/steady
+235 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.sys=[os., java., runtime., maven., sun.]
+235 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.tmpDir=/home/ubuntu/nzp/logback-classic1/target/vulas/tmp
+236 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.version=3.2.5
+248 [main] [[32mINFO [m] e.steady.shared.util.StopWatch - [253038] [00.000 ms] Started: Goal [id=AGENT-TEST-1689861569246-47834479, type=TEST]
+250 [main] [[32mINFO [m] teady.backend.BackendConnector - Deleting cache: [0] bug change lists, [0] app existance
+255 [main] [[32mINFO [m] shared.util.AbstractFileSearch - Found [0] files in relative path [.], i.e., absolute path [/home/ubuntu/nzp/logback-classic1/.]
+257 [main] [[32mINFO [m] shared.util.AbstractFileSearch - Found [0] files in relative path [.], i.e., absolute path [/home/ubuntu/nzp/logback-classic1/.]
+260 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [Transient-Config-Layer]
+260 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [SystemConfiguration] from source [System-Properties]
+261 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [Environment-Variables]
+261 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [PropertiesConfiguration] from source [/root/.steady.properties]
+275 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-core-sign.properties]
+275 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-core.properties]
+275 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-version.properties]
+275 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-java.properties]
+275 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-shared.properties]
+275 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-tenant.properties]
+276 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [1]: Transient-Config-Layer, [0] entries
+276 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [2]: System-Properties, [115] entries
+276 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [3]: Environment-Variables, [42] entries
+276 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [4]: /root/.steady.properties, [1] entries
+276 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [5]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-core-sign.properties, [10] entries
+276 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [6]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-core.properties, [19] entries
+276 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [7]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-version.properties, [4] entries
+277 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [8]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-java.properties, [22] entries
+277 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [9]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-shared.properties, [10] entries
+277 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [10]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-tenant.properties, [1] entries
+277 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration with prefix(es) [http, https, vulas]
+278 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.app.sourceDir=[/home/ubuntu/nzp/logback-classic1/target/classes, /home/ubuntu/nzp/logback-classic1/src/main/java, /home/ubuntu/nzp/logback-classic1/src/main/python]
+278 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.app.uploadEmpty=false
+279 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.app.uploadLibrary=false
+279 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.appContext.artifact=logback-classic
+279 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.appContext.group=ch.qos.logback
+280 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.appContext.version=1.1.7-SNAPSHOT
+280 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.backendConnection=READ_ONLY
+280 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.clean.goalHistory=false
+280 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.clean.purgeVersions=false
+281 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.clean.purgeVersions.keepLast=3
+281 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classes=[org.apache.maven.surefire, org.junit, org.eclipse.steady, org.jacoco.]
+282 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classes.jre=[java., sun., com.sun., org.xml., org.ietf., org.jcp., org.omg.]
+282 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classloader=[sun.reflect.DelegatingClassLoader, javax.management.remote.rmi.NoCallStackClassLoader, org.powermock.core.classloader.MockClassLoader]
+282 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.jars=[lang-java-.*.jar, surefire-.*.jar, junit-.*.jar, org.jacoco.agent.*.jar]
+283 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.jars.ignoreScopes=[test, provided]
+283 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.includeDir=/home/ubuntu/nzp/logback-classic1/target/vulas/include
+284 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.instrumentorsChoosen=org.eclipse.steady.java.monitor.trace.SingleTraceInstrumentor
+284 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.libDir=/home/ubuntu/nzp/logback-classic1/target/vulas/lib
+284 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.maxStacktraces=10
+284 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.printErrorStackTrace=true
+285 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.searchRecursive=false
+285 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.slice.guardOpen=true
+285 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.sourceDir=/home/ubuntu/nzp/logback-classic1/target
+286 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.static.inclBackendUrl=true
+286 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.static.inclSpace=true
+286 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.targetDir=/home/ubuntu/nzp/logback-classic1/target/vulas/target
+286 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.whitelist.classloader.acceptChilds=true
+287 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.writeCode=false
+287 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.jarAnalysis.poolSize=4
+287 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.blacklist.jars=[lang-java-.*.jar, surefire-.*.jar, junit-.*.jar, org.jacoco.agent.*.jar]
+288 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.maxItems=-1
+288 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.batchSize=1000
+288 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.enabled=false
+288 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.interval=300000
+289 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.noThreads=AUTO
+289 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.repeatHttp.max=50
+289 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.repeatHttp.waitMilli=60000
+290 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sequence.defaultGoals=[CLEAN, APP, A2C, REPORT]
+290 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxDecompiler=false
+291 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxEditScript=true
+291 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxEqualIgnoreParentRoot=false
+291 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxRelaxedByDefault=false
+291 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxStripFinals=true
+292 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.saveDecompiledArchive=false
+292 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.saveEditScriptIntersection=false
+292 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.saveEditScripts=false
+293 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.showDecompiledConstruct=false
+293 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.skipKnownArchive=false
+293 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.space.token=8A47AF320BB595F19E34924BA7E9B185
+293 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.tenant.token=603EFBA1EA9B98ADB4B548682597E6D0
+294 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.upload.deleteAfterSuccess=true
+294 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.upload.maxSize=-1
+294 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.uploadDir=/home/ubuntu/nzp/logback-classic1/target/vulas/upload
+295 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.verifyJars=true
+295 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.report.exceptionExcludeUnassessed=all
+295 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.report.exceptionThreshold=dependsOn
+296 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.report.exemptScope=[TEST, PROVIDED]
+296 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.backend.serviceUrl=http://localhost:8033/backend/
+297 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.buildBranch=UNKNOWN
+297 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.buildNumber=3d261afe9513f7c708324aa0183423ab2e9e4692
+298 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.buildTimestamp=2022-09-20T08:33:43+00:00
+298 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.charset=UTF-8
+298 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.cve.serviceUrl=https://services.nvd.nist.gov/rest/json/cve/1.0/<ID>
+299 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.env=[PROCESSOR_IDENTIFIER, NUMBER_OF_PROCESSORS, PROCESSOR_LEVEL, PROCESSOR_ARCHITECTURE, PROCESSOR_REVISION, JAVA_HOME, COMPUTERNAME, MAVEN_PROJECTBASEDIR, MAVEN_HOME, MAVEN_CONFIG, MAVEN_OPTS, BUILD_URL, BUILD_TAG, BUILD_TIMESTAMP, BUILD_DISPLAY_NAME, BUILD_ID, BUILD_NUMBER, BUILD_VERSION]
+299 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.homepage=https://eclipse.github.io/steady
+300 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.sys=[os., java., runtime., maven., sun.]
+300 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.tmpDir=/home/ubuntu/nzp/logback-classic1/target/vulas/tmp
+300 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.version=3.2.5
+304 [main] [[33mWARN [m] se.steady.shared.util.FileUtil - Path [/home/ubuntu/nzp/logback-classic1/src/main/python] is neither an accessible file nor an accessible directory, hence, will be ignored
+309 [main] [[33mWARN [m] dy.core.util.CoreConfiguration - Cannot determine Vulas version from manifest entry [Implementation-Version], check Vulas JAR
+313 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP OPTIONS [uri=http://localhost:8033/backend/spaces/8A47AF320BB595F19E34924BA7E9B185, tenant=603EFBA1EA9B98ADB4B548682597E6D0, space=8A47AF320BB595F19E34924BA7E9B185]
+570 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP OPTIONS completed with response code [200] in [00.256 ms] (proxy=false)
+570 [main] [[32mINFO [m] ipse.steady.goals.AbstractGoal - Uploading goal execution info ...
+572 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP OPTIONS [uri=http://localhost:8033/backend/apps/ch.qos.logback/logback-classic/1.1.7-SNAPSHOT, tenant=603EFBA1EA9B98ADB4B548682597E6D0, space=8A47AF320BB595F19E34924BA7E9B185]
+579 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP OPTIONS completed with response code [200] in [00.007 ms] (proxy=false)
+619 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP OPTIONS [uri=http://localhost:8033/backend/apps/ch.qos.logback/logback-classic/1.1.7-SNAPSHOT/goals/AGENT-TEST-1689861569246-47834479, tenant=603EFBA1EA9B98ADB4B548682597E6D0, space=8A47AF320BB595F19E34924BA7E9B185]
+628 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP OPTIONS completed with response code [404] in [00.008 ms] (proxy=false)
+631 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - Request body (JSON) written to [/home/ubuntu/nzp/logback-classic1/target/vulas/upload/92954598054959-apps__ch.qos.logback__logback-classic__1.1.7-SNAPSHOT__goals.json]
+641 [main] [[32mINFO [m] d.requests.AbstractHttpRequest - Request object written to [/home/ubuntu/nzp/logback-classic1/target/vulas/upload/92954598054959-apps__ch.qos.logback__logback-classic__1.1.7-SNAPSHOT__goals.obj]
+641 [main] [[32mINFO [m] ipse.steady.goals.AbstractGoal - Uploaded goal execution info
+644 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP GET [uri=http://localhost:8033/backend/apps/ch.qos.logback/logback-classic/1.1.7-SNAPSHOT/deps, tenant=603EFBA1EA9B98ADB4B548682597E6D0, space=8A47AF320BB595F19E34924BA7E9B185]
+284 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP GET completed with response code [200] in [01.639 ms] (proxy=false)
+520 [main] [[32mINFO [m] teady.backend.BackendConnector - [73] dependencies for app [ch.qos.logback:logback-classic:1.1.7-SNAPSHOT] received from backend
+520 [main] [[32mINFO [m] monitor.InstrumentationControl - Added [25] dependencies with scopes [test, provided] to JAR blacklist
+525 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP GET [uri=http://localhost:8033/backend/apps/ch.qos.logback/logback-classic/1.1.7-SNAPSHOT/constructIds, tenant=603EFBA1EA9B98ADB4B548682597E6D0, space=8A47AF320BB595F19E34924BA7E9B185]
+537 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP GET completed with response code [200] in [00.011 ms] (proxy=false)
+541 [main] [[32mINFO [m] teady.backend.BackendConnector - [57] app constructs received from backend, [57] transformed to client representation
+546 [main] [[32mINFO [m] ava.monitor.DynamicTransformer - DynamicTransformer [id=0.3307686033232379, instrumentation enabled=true] registered via JVM option -javaagent
+558 [main] [[32mINFO [m] monitor.InstrumentationControl - JAR [/root/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.2/surefire-logger-api-2.22.2.jar] is blacklisted: [true]
+768 [main] [[32mINFO [m] monitor.InstrumentationControl - JAR [/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar] is blacklisted: [true]
+808 [main] [[32mINFO [m] monitor.InstrumentationControl - JAR [/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar] is blacklisted: [true]
+811 [main] [[32mINFO [m] monitor.InstrumentationControl - JAR [/root/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar] is blacklisted: [true].
+org.apache.maven.plugin.surefire.booterclient.output.MultipleFailureException: 074 [main] [[32mINFO [m] shared.util.AbstractFileSearch - Found [0] files in relative path [.], i.e., absolute path [/home/ubuntu/nzp/logback-classic1/.]
+089 [main] [[32mINFO [m] shared.util.AbstractFileSearch - Found [0] files in relative path [.], i.e., absolute path [/home/ubuntu/nzp/logback-classic1/.]
+089 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [Transient-Config-Layer]
+100 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [SystemConfiguration] from source [System-Properties]
+104 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [Environment-Variables]
+116 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [PropertiesConfiguration] from source [/root/.steady.properties]
+157 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-core-sign.properties]
+158 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-core.properties]
+158 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-version.properties]
+158 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-java.properties]
+159 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-shared.properties]
+159 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-tenant.properties]
+159 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [1]: Transient-Config-Layer, [0] entries
+160 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [2]: System-Properties, [115] entries
+160 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [3]: Environment-Variables, [42] entries
+160 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [4]: /root/.steady.properties, [1] entries
+160 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [5]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-core-sign.properties, [10] entries
+160 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [6]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-core.properties, [19] entries
+160 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [7]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-version.properties, [4] entries
+160 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [8]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-java.properties, [22] entries
+160 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [9]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-shared.properties, [10] entries
+160 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [10]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-tenant.properties, [1] entries
+161 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration with prefix(es) [http, https, vulas]
+171 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.app.sourceDir=[/home/ubuntu/nzp/logback-classic1/target/classes, /home/ubuntu/nzp/logback-classic1/src/main/java, /home/ubuntu/nzp/logback-classic1/src/main/python]
+171 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.app.uploadEmpty=false
+172 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.app.uploadLibrary=false
+173 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.appContext.artifact=logback-classic
+173 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.appContext.group=ch.qos.logback
+174 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.appContext.version=1.1.7-SNAPSHOT
+175 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.backendConnection=READ_ONLY
+175 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.clean.goalHistory=false
+176 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.clean.purgeVersions=false
+177 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.clean.purgeVersions.keepLast=3
+177 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classes=[org.apache.maven.surefire, org.junit, org.eclipse.steady, org.jacoco.]
+178 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classes.jre=[java., sun., com.sun., org.xml., org.ietf., org.jcp., org.omg.]
+180 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classloader=[sun.reflect.DelegatingClassLoader, javax.management.remote.rmi.NoCallStackClassLoader, org.powermock.core.classloader.MockClassLoader]
+180 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.jars=[lang-java-.*.jar, surefire-.*.jar, junit-.*.jar, org.jacoco.agent.*.jar]
+181 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.jars.ignoreScopes=[test, provided]
+182 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.includeDir=/home/ubuntu/nzp/logback-classic1/target/vulas/include
+183 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.instrumentorsChoosen=org.eclipse.steady.java.monitor.trace.SingleTraceInstrumentor
+183 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.libDir=/home/ubuntu/nzp/logback-classic1/target/vulas/lib
+184 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.maxStacktraces=10
+184 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.printErrorStackTrace=true
+185 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.searchRecursive=false
+186 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.slice.guardOpen=true
+187 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.sourceDir=/home/ubuntu/nzp/logback-classic1/target
+188 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.static.inclBackendUrl=true
+188 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.static.inclSpace=true
+189 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.targetDir=/home/ubuntu/nzp/logback-classic1/target/vulas/target
+190 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.whitelist.classloader.acceptChilds=true
+190 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.writeCode=false
+191 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.jarAnalysis.poolSize=4
+192 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.blacklist.jars=[lang-java-.*.jar, surefire-.*.jar, junit-.*.jar, org.jacoco.agent.*.jar]
+192 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.maxItems=-1
+193 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.batchSize=1000
+193 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.enabled=false
+194 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.interval=300000
+196 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.noThreads=AUTO
+198 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.repeatHttp.max=50
+198 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.repeatHttp.waitMilli=60000
+198 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sequence.defaultGoals=[CLEAN, APP, A2C, REPORT]
+199 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxDecompiler=false
+199 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxEditScript=true
+200 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxEqualIgnoreParentRoot=false
+201 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxRelaxedByDefault=false
+202 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxStripFinals=true
+202 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.saveDecompiledArchive=false
+203 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.saveEditScriptIntersection=false
+203 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.saveEditScripts=false
+204 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.showDecompiledConstruct=false
+204 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.skipKnownArchive=false
+207 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.space.token=8A47AF320BB595F19E34924BA7E9B185
+208 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.tenant.token=603EFBA1EA9B98ADB4B548682597E6D0
+208 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.upload.deleteAfterSuccess=true
+208 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.upload.maxSize=-1
+209 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.uploadDir=/home/ubuntu/nzp/logback-classic1/target/vulas/upload
+209 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.verifyJars=true
+210 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.report.exceptionExcludeUnassessed=all
+210 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.report.exceptionThreshold=dependsOn
+211 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.report.exemptScope=[TEST, PROVIDED]
+212 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.backend.serviceUrl=http://localhost:8033/backend/
+212 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.buildBranch=UNKNOWN
+213 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.buildNumber=3d261afe9513f7c708324aa0183423ab2e9e4692
+213 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.buildTimestamp=2022-09-20T08:33:43+00:00
+232 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.charset=UTF-8
+233 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.cve.serviceUrl=https://services.nvd.nist.gov/rest/json/cve/1.0/<ID>
+234 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.env=[PROCESSOR_IDENTIFIER, NUMBER_OF_PROCESSORS, PROCESSOR_LEVEL, PROCESSOR_ARCHITECTURE, PROCESSOR_REVISION, JAVA_HOME, COMPUTERNAME, MAVEN_PROJECTBASEDIR, MAVEN_HOME, MAVEN_CONFIG, MAVEN_OPTS, BUILD_URL, BUILD_TAG, BUILD_TIMESTAMP, BUILD_DISPLAY_NAME, BUILD_ID, BUILD_NUMBER, BUILD_VERSION]
+234 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.homepage=https://eclipse.github.io/steady
+235 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.sys=[os., java., runtime., maven., sun.]
+235 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.tmpDir=/home/ubuntu/nzp/logback-classic1/target/vulas/tmp
+236 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.version=3.2.5
+248 [main] [[32mINFO [m] e.steady.shared.util.StopWatch - [253038] [00.000 ms] Started: Goal [id=AGENT-TEST-1689861569246-47834479, type=TEST]
+250 [main] [[32mINFO [m] teady.backend.BackendConnector - Deleting cache: [0] bug change lists, [0] app existance
+255 [main] [[32mINFO [m] shared.util.AbstractFileSearch - Found [0] files in relative path [.], i.e., absolute path [/home/ubuntu/nzp/logback-classic1/.]
+257 [main] [[32mINFO [m] shared.util.AbstractFileSearch - Found [0] files in relative path [.], i.e., absolute path [/home/ubuntu/nzp/logback-classic1/.]
+260 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [Transient-Config-Layer]
+260 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [SystemConfiguration] from source [System-Properties]
+261 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [Environment-Variables]
+261 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [PropertiesConfiguration] from source [/root/.steady.properties]
+275 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-core-sign.properties]
+275 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-core.properties]
+275 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-version.properties]
+275 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-java.properties]
+275 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-shared.properties]
+275 [main] [[32mINFO [m] shared.util.VulasConfiguration - Added configuration [MapConfiguration] from source [/root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-tenant.properties]
+276 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [1]: Transient-Config-Layer, [0] entries
+276 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [2]: System-Properties, [115] entries
+276 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [3]: Environment-Variables, [42] entries
+276 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [4]: /root/.steady.properties, [1] entries
+276 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [5]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-core-sign.properties, [10] entries
+276 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [6]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-core.properties, [19] entries
+276 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [7]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-version.properties, [4] entries
+277 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [8]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-java.properties, [22] entries
+277 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [9]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-shared.properties, [10] entries
+277 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration [10]: /root/.m2/repository/org/eclipse/steady/lang-java/3.2.5/lang-java-3.2.5-jar-with-dependencies.jar>steady-tenant.properties, [1] entries
+277 [main] [[32mINFO [m] shared.util.VulasConfiguration - Configuration with prefix(es) [http, https, vulas]
+278 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.app.sourceDir=[/home/ubuntu/nzp/logback-classic1/target/classes, /home/ubuntu/nzp/logback-classic1/src/main/java, /home/ubuntu/nzp/logback-classic1/src/main/python]
+278 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.app.uploadEmpty=false
+279 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.app.uploadLibrary=false
+279 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.appContext.artifact=logback-classic
+279 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.appContext.group=ch.qos.logback
+280 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.appContext.version=1.1.7-SNAPSHOT
+280 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.backendConnection=READ_ONLY
+280 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.clean.goalHistory=false
+280 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.clean.purgeVersions=false
+281 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.clean.purgeVersions.keepLast=3
+281 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classes=[org.apache.maven.surefire, org.junit, org.eclipse.steady, org.jacoco.]
+282 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classes.jre=[java., sun., com.sun., org.xml., org.ietf., org.jcp., org.omg.]
+282 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.classloader=[sun.reflect.DelegatingClassLoader, javax.management.remote.rmi.NoCallStackClassLoader, org.powermock.core.classloader.MockClassLoader]
+282 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.jars=[lang-java-.*.jar, surefire-.*.jar, junit-.*.jar, org.jacoco.agent.*.jar]
+283 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.blacklist.jars.ignoreScopes=[test, provided]
+283 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.includeDir=/home/ubuntu/nzp/logback-classic1/target/vulas/include
+284 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.instrumentorsChoosen=org.eclipse.steady.java.monitor.trace.SingleTraceInstrumentor
+284 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.libDir=/home/ubuntu/nzp/logback-classic1/target/vulas/lib
+284 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.maxStacktraces=10
+284 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.printErrorStackTrace=true
+285 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.searchRecursive=false
+285 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.slice.guardOpen=true
+285 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.sourceDir=/home/ubuntu/nzp/logback-classic1/target
+286 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.static.inclBackendUrl=true
+286 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.static.inclSpace=true
+286 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.targetDir=/home/ubuntu/nzp/logback-classic1/target/vulas/target
+286 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.whitelist.classloader.acceptChilds=true
+287 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.instr.writeCode=false
+287 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.jarAnalysis.poolSize=4
+287 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.blacklist.jars=[lang-java-.*.jar, surefire-.*.jar, junit-.*.jar, org.jacoco.agent.*.jar]
+288 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.maxItems=-1
+288 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.batchSize=1000
+288 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.enabled=false
+288 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.monitor.periodicUpload.interval=300000
+289 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.noThreads=AUTO
+289 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.repeatHttp.max=50
+289 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.repeatHttp.waitMilli=60000
+290 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sequence.defaultGoals=[CLEAN, APP, A2C, REPORT]
+290 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxDecompiler=false
+291 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxEditScript=true
+291 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxEqualIgnoreParentRoot=false
+291 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxRelaxedByDefault=false
+291 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.relaxStripFinals=true
+292 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.saveDecompiledArchive=false
+292 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.saveEditScriptIntersection=false
+292 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.saveEditScripts=false
+293 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.sign.showDecompiledConstruct=false
+293 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.skipKnownArchive=false
+293 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.space.token=8A47AF320BB595F19E34924BA7E9B185
+293 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.tenant.token=603EFBA1EA9B98ADB4B548682597E6D0
+294 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.upload.deleteAfterSuccess=true
+294 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.upload.maxSize=-1
+294 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.uploadDir=/home/ubuntu/nzp/logback-classic1/target/vulas/upload
+295 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.core.verifyJars=true
+295 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.report.exceptionExcludeUnassessed=all
+295 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.report.exceptionThreshold=dependsOn
+296 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.report.exemptScope=[TEST, PROVIDED]
+296 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.backend.serviceUrl=http://localhost:8033/backend/
+297 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.buildBranch=UNKNOWN
+297 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.buildNumber=3d261afe9513f7c708324aa0183423ab2e9e4692
+298 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.buildTimestamp=2022-09-20T08:33:43+00:00
+298 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.charset=UTF-8
+298 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.cve.serviceUrl=https://services.nvd.nist.gov/rest/json/cve/1.0/<ID>
+299 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.env=[PROCESSOR_IDENTIFIER, NUMBER_OF_PROCESSORS, PROCESSOR_LEVEL, PROCESSOR_ARCHITECTURE, PROCESSOR_REVISION, JAVA_HOME, COMPUTERNAME, MAVEN_PROJECTBASEDIR, MAVEN_HOME, MAVEN_CONFIG, MAVEN_OPTS, BUILD_URL, BUILD_TAG, BUILD_TIMESTAMP, BUILD_DISPLAY_NAME, BUILD_ID, BUILD_NUMBER, BUILD_VERSION]
+299 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.homepage=https://eclipse.github.io/steady
+300 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.sys=[os., java., runtime., maven., sun.]
+300 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.tmpDir=/home/ubuntu/nzp/logback-classic1/target/vulas/tmp
+300 [main] [[32mINFO [m] shared.util.VulasConfiguration -     vulas.shared.version=3.2.5
+304 [main] [[33mWARN [m] se.steady.shared.util.FileUtil - Path [/home/ubuntu/nzp/logback-classic1/src/main/python] is neither an accessible file nor an accessible directory, hence, will be ignored
+309 [main] [[33mWARN [m] dy.core.util.CoreConfiguration - Cannot determine Vulas version from manifest entry [Implementation-Version], check Vulas JAR
+313 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP OPTIONS [uri=http://localhost:8033/backend/spaces/8A47AF320BB595F19E34924BA7E9B185, tenant=603EFBA1EA9B98ADB4B548682597E6D0, space=8A47AF320BB595F19E34924BA7E9B185]
+570 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP OPTIONS completed with response code [200] in [00.256 ms] (proxy=false)
+570 [main] [[32mINFO [m] ipse.steady.goals.AbstractGoal - Uploading goal execution info ...
+572 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP OPTIONS [uri=http://localhost:8033/backend/apps/ch.qos.logback/logback-classic/1.1.7-SNAPSHOT, tenant=603EFBA1EA9B98ADB4B548682597E6D0, space=8A47AF320BB595F19E34924BA7E9B185]
+579 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP OPTIONS completed with response code [200] in [00.007 ms] (proxy=false)
+619 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP OPTIONS [uri=http://localhost:8033/backend/apps/ch.qos.logback/logback-classic/1.1.7-SNAPSHOT/goals/AGENT-TEST-1689861569246-47834479, tenant=603EFBA1EA9B98ADB4B548682597E6D0, space=8A47AF320BB595F19E34924BA7E9B185]
+628 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP OPTIONS completed with response code [404] in [00.008 ms] (proxy=false)
+631 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - Request body (JSON) written to [/home/ubuntu/nzp/logback-classic1/target/vulas/upload/92954598054959-apps__ch.qos.logback__logback-classic__1.1.7-SNAPSHOT__goals.json]
+641 [main] [[32mINFO [m] d.requests.AbstractHttpRequest - Request object written to [/home/ubuntu/nzp/logback-classic1/target/vulas/upload/92954598054959-apps__ch.qos.logback__logback-classic__1.1.7-SNAPSHOT__goals.obj]
+641 [main] [[32mINFO [m] ipse.steady.goals.AbstractGoal - Uploaded goal execution info
+644 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP GET [uri=http://localhost:8033/backend/apps/ch.qos.logback/logback-classic/1.1.7-SNAPSHOT/deps, tenant=603EFBA1EA9B98ADB4B548682597E6D0, space=8A47AF320BB595F19E34924BA7E9B185]
+284 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP GET completed with response code [200] in [01.639 ms] (proxy=false)
+520 [main] [[32mINFO [m] teady.backend.BackendConnector - [73] dependencies for app [ch.qos.logback:logback-classic:1.1.7-SNAPSHOT] received from backend
+520 [main] [[32mINFO [m] monitor.InstrumentationControl - Added [25] dependencies with scopes [test, provided] to JAR blacklist
+525 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP GET [uri=http://localhost:8033/backend/apps/ch.qos.logback/logback-classic/1.1.7-SNAPSHOT/constructIds, tenant=603EFBA1EA9B98ADB4B548682597E6D0, space=8A47AF320BB595F19E34924BA7E9B185]
+537 [main] [[32mINFO [m] kend.requests.BasicHttpRequest - HTTP GET completed with response code [200] in [00.011 ms] (proxy=false)
+541 [main] [[32mINFO [m] teady.backend.BackendConnector - [57] app constructs received from backend, [57] transformed to client representation
+546 [main] [[32mINFO [m] ava.monitor.DynamicTransformer - DynamicTransformer [id=0.3307686033232379, instrumentation enabled=true] registered via JVM option -javaagent
+558 [main] [[32mINFO [m] monitor.InstrumentationControl - JAR [/root/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.2/surefire-logger-api-2.22.2.jar] is blacklisted: [true]
+768 [main] [[32mINFO [m] monitor.InstrumentationControl - JAR [/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar] is blacklisted: [true]
+808 [main] [[32mINFO [m] monitor.InstrumentationControl - JAR [/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar] is blacklisted: [true]
+811 [main] [[32mINFO [m] monitor.InstrumentationControl - JAR [/root/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar] is blacklisted: [true]
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.<init>(ThreadedStreamConsumer.java:58)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer.<init>(ThreadedStreamConsumer.java:110)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:594)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:282)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:245)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1183)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1011)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:857)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:956)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:192)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+
+
